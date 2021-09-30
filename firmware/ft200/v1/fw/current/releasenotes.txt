@@ -8,3 +8,9 @@ v0.4.7.10	09/03/2021	Log rotation update, CAN Bus integration updates
 v0.4.7.11	09/08/2021	Increased maximum brightness and slowed light sensor response. Possible wireless fault issue fix, function without track map (full track only), GPS timeout re-initiation fix.
 v0.4.7.12	09/23/2021	Improved resilience to floating or backfed USB source with car off.
 v0.4.8.0	09/23/2021	Changes to local flagging to accomodate more multiple flag states per flag station.
+v0.4.8.1	0/9/24/2021	Update frequency change, improved version tracking, TrackMap CRC update, new local combination flags.
+v0.4.8.2	9/27/2021	new local combination flags, improved message efficiency, GPS stop & start routines for reduced power during low power state, red flag override, several bug fixes, new meatball animation, local flag offsets. 
+v0.4.8.3	9/27/2021	Bug fix for new local flagging com, lighting curve update, dimming reduction.
+v0.4.8.4	9/29/2021	Improved TrackMap update flexibility, solve performance bug that effected lighting changes & other routines, local flag improvements & lighting fixes, lighting response speed increase.
+v0.4.8.5	9/30/2021	GPS reinit fix, older bootrom version support, FS improvements, bug fixes.
+v0.4.8.6	9/30/2021	Production Version! GPS reinit improvement. 

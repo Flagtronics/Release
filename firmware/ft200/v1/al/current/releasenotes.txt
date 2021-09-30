@@ -1,0 +1,9 @@
+v0.4.3.0	02/26/2021	Base version
+v0.4.4.0	07/27/2021	Update to change icon, autorun and readme
+v0.4.5.0	07/28/2021	Initial Release Version. Update to jump to bootloader application. 
+v0.4.5.1	08/10/2021	Show release # in apploader & bootloader
+v0.4.6.0	09/18/2021	Read only flag change on some files for improved firmware updates
+v0.4.6.1	09/19/2021	Read only flag change on some folders for improved firmware updates
+v0.4.6.2	09/20/2021	Reverted
+v0.4.6.3	09/21/2021	Change firmware file size for improved firmware updates
+v0.4.6.4	09/23/2021	Upate bootROM & apploader version reporting to firmware
