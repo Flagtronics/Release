@@ -14,3 +14,4 @@ v0.4.8.3	9/27/2021	Bug fix for new local flagging com, lighting curve update, di
 v0.4.8.4	9/29/2021	Improved TrackMap update flexibility, solve performance bug that effected lighting changes & other routines, local flag improvements & lighting fixes, lighting response speed increase.
 v0.4.8.5	9/30/2021	GPS reinit fix, older bootrom version support, FS improvements, bug fixes.
 v0.4.8.6	9/30/2021	Production Version! GPS reinit improvement. 
+v0.4.8.7	10/22/2021	Local flag clear updates.
