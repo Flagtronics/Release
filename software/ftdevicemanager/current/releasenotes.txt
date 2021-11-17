@@ -3,3 +3,4 @@ v0.11	10/7/2021	PIRC/PITT Track Map, bug fixes, Multi-select Track Maps
 v0.12	10/10/2021	Firmware & apploader update improvements, language & form changes.
 v0.13	10/27/2021	AMP, Road America, Laguna Seca Track Maps added.
 v0.14	11/15/2021	Added Display rotation setting, bug fixes, Refresh button to check versions again, check software & manual versions, Barber Motorsports Track Map added.
+v0.15	11/17/2021	Added rental mode / 30 min no external power battery shut off. Sebring Added, Ventura added
