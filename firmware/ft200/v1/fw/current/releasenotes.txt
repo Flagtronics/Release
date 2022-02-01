@@ -15,3 +15,7 @@ v0.4.8.4	9/29/2021	Improved TrackMap update flexibility, solve performance bug t
 v0.4.8.5	9/30/2021	GPS reinit fix, older bootrom version support, FS improvements, bug fixes.
 v0.4.8.6	9/30/2021	Production Version! GPS reinit improvement. 
 v0.4.8.7	10/22/2021	Local flag clear updates.
+v0.4.8.8	11/17/2021	Accelerometer bug fixes, GPS improvements, Inverted display option, brightness improvements, code efficiency updates, overtemp condition updates, animation changes, accident triggers, battery only power mode option for rental units.
+v0.4.8.9	-	Customer Demo
+v0.4.8.10	-	2021 PRI Demo
+v0.4.8.11	1/19/2022	GPS simulation & logger updates, brightness fix, GPS re-initialization fix, hardware revision reporting fix, enable stopped car detection for automatic yellow feature, enable GPS failure detection to disable automatic yellows & accident flagging, improved low battery control.
