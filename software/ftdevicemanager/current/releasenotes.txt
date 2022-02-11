@@ -7,3 +7,5 @@ v0.15	11/17/2021	Added rental mode / 30 min no external power battery shut off. 
 v0.16	12/4/2021	Firmware update improvements.
 v0.17	12/6/2021	Don't show Update Display & Power when no device connected. Disc scanning improvement. Reduced executable size.
 v0.18	1/29/2022	Add 10 new tracks. Show Serial # & Hardware Revision on startup & with Refresh.
+v0.19   2/11/2022   Add Device Configurations feature providing user with the ability to manage various configurations of device settings.
+v0.20   2/11/2022   Allow default track map to be deselected even when there are multiple track maps
