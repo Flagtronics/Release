@@ -1,11 +1,16 @@
-v0.10	9/30/2021	Production Version! 
-v0.11	10/7/2021	PIRC/PITT Track Map, bug fixes, Multi-select Track Maps
-v0.12	10/10/2021	Firmware & apploader update improvements, language & form changes.
-v0.13	10/27/2021	AMP, Road America, Laguna Seca Track Maps added.
-v0.14	11/15/2021	Added Display rotation setting, bug fixes, Refresh button to check versions again, check software & manual versions, Barber Motorsports Track Map added.
-v0.15	11/17/2021	Added rental mode / 30 min no external power battery shut off. Sebring Added, Ventura added.
-v0.16	12/4/2021	Firmware update improvements.
-v0.17	12/6/2021	Don't show Update Display & Power when no device connected. Disc scanning improvement. Reduced executable size.
-v0.18	1/29/2022	Add 10 new tracks. Show Serial # & Hardware Revision on startup & with Refresh.
+v0.10   9/30/2021   Production Version! 
+v0.11   10/7/2021   PIRC/PITT Track Map, bug fixes, Multi-select Track Maps
+v0.12   10/10/2021  Firmware & apploader update improvements, language & form changes.
+v0.13   10/27/2021  AMP, Road America, Laguna Seca Track Maps added.
+v0.14   11/15/2021  Added Display rotation setting, bug fixes, Refresh button to check versions again, check software & manual versions, Barber Motorsports Track Map added.
+v0.15   11/17/2021  Added rental mode / 30 min no external power battery shut off. Sebring Added, Ventura added.
+v0.16   12/4/2021   Firmware update improvements.
+v0.17   12/6/2021   Don't show Update Display & Power when no device connected. Disc scanning improvement. Reduced executable size.
+v0.18   1/29/2022   Add 10 new tracks. Show Serial # & Hardware Revision on startup & with Refresh.
 v0.19   2/11/2022   Add Device Configurations feature providing user with the ability to manage various configurations of device settings.
 v0.20   2/11/2022   Allow default track map to be deselected even when there are multiple track maps
+v0.21   2/15/2022   Add Serial Number, Hardware Version and Firmware Version information into device configuration
+                    For Firmware or Apploader update, powerline must be plugged in or the remaining battery must be at least 30% or 45 minutes  
+                    Fix bugs in Light Input Sensor form
+                    Fix: while updating user manual, only download user manual if newer version is available
+                    
