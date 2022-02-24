@@ -13,4 +13,6 @@ v0.21   2/15/2022   Add Serial Number, Hardware Version and Firmware Version inf
                     For Firmware or Apploader update, powerline must be plugged in or the remaining battery must be at least 30% or 45 minutes  
                     Fix bugs in Light Input Sensor form
                     Fix: while updating user manual, only download user manual if newer version is available
-                    
+v0.22	2/21/2022	Change default CAN IDs
+v0.23	2/21/2022	Add folder picker which allows user to enter folder path while selecting Configuration folder
+v0.24	2/23/2022	Add 3 new tracks
