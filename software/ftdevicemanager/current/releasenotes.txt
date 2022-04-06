@@ -1,3 +1,4 @@
+Version	Date	Notes
 v0.10	9/30/2021	Production Version!
 v0.11	10/7/2021	PIRC/PITT Track Map, bug fixes, Multi-select Track Maps
 v0.12	10/10/2021	Firmware & apploader update improvements, language & form changes.
@@ -28,3 +29,5 @@ v0.27	3/11/2022	Perform sanity check when FT200 is connected to detect flash cor
 		Reworked the way FT200 is detected not to use autorun.inf
 v0.28	3/15/2022	v0.4.8.13 Firmware packaged in installer
 		Added Ozarks, Summit Point Main, & Charlotte Roval
+v0.29	3/31/2022	Revisions to NCM, Summit Point, & Daytona
+v0.30	4/6/2022	Revisions to Road America, Sonoma added
