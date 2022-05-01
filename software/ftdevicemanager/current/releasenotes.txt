@@ -31,3 +31,8 @@ v0.28	3/15/2022	v0.4.8.13 Firmware packaged in installer
 		Added Ozarks, Summit Point Main, & Charlotte Roval
 v0.29	3/31/2022	Revisions to NCM, Summit Point, & Daytona
 v0.30	4/6/2022	Revisions to Road America, Sonoma added
+v0.31	4/30/2022	Support log format version 2 (with log timestamp)
+		v0.5.0.6 Firmware packaged in installer
+		Revisions to Watkins Glen
+		Added Palm Beach
+		Updated logging format handling
