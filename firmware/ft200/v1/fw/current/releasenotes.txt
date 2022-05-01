@@ -1,3 +1,4 @@
+Version	Date	Notes
 v0.4.7.4	08/02/2021	Initial Release Version
 v0.4.7.5	08/10/2021	Show release # in apploader & bootloader. Updated debris response. 
 v0.4.7.6	08/11/2021	Change Black Flag (BF) text from red to white. Other improvements in BF flag routine.
@@ -18,9 +19,44 @@ v0.4.8.7	10/22/2021	Local flag clear updates.
 v0.4.8.8	11/17/2021	Accelerometer bug fixes, GPS improvements, Inverted display option, brightness improvements, code efficiency updates, overtemp condition updates, animation changes, accident triggers, battery only power mode option for rental units.
 v0.4.8.9	-	Customer Demo
 v0.4.8.10	-	2021 PRI Demo
-v0.4.8.11	1/19/2022	GPS simulation & logger updates, brightness fix, GPS re-initialization fix, hardware revision reporting fix, enable stopped car detection for automatic yellow feature, enable GPS failure detection to disable automatic yellows & accident flagging, improved low battery control.
+v0.4.8.11	1/19/2022	GPS simulation & logger updates
+		brightness fix
+		GPS re-initialization fix
+		hardware revision reporting fix
+		enable stopped car detection for automatic yellow feature
+		enable GPS failure detection detection to disable automatic yellows & accident flagging
+		improved low battery control
 		Accelerometer bug fixes, Encryption updates, 
 v0.4.8.12	3/15/2022	Wireless errata fixes
 		Encryption overflow condition fix
 		Enycryption enable flag update
-v0.4.8.13		Encryption padding fix
+v0.4.8.13	3/15/2022	Encryption padding fix
+v0.5.0.0	4/1/2022	Multi-hardware handling of prior v0.1.7.0/0.2.0.0a & v0.3.8.0 next generation hardware in single firmware
+		Add handling for front light sensor in addition to rear light sensor
+		Add improved battery management chip
+		Prevent poor data transmission if GPS is not responsive
+		Zone validity test updates
+		Change multi-color COM to blue SIG message to better indicate that there is no signal
+		Change SIG message to CMD to indicate signal is present but no track state has been commanded
+v0.5.0.1	4/26/2022	Substantial updates to low voltage write protection routines for USB drive
+		Display initialization update to avoid unicorn sparkles christmas tree mode under specific power cycle conditions
+		Add hysteresis on external power supplies, USB & 12V
+		Add bad power supply message when USB power drops below threshold
+		Speed up low voltage detection and shut down
+		Add timestamp to logs
+		Change log output format
+		Improve multi-encryption mode handling
+		Move full GPSsim data load out of RAM
+v0.5.0.2	4/26/2022	Acelerometer errata fix
+		Change USB drive init to later in boot process
+		Acelerometer  boot up trigger fix
+		Accident trigger higher number of samples required to trigger 
+v0.5.0.3	4/26/2022	USB & 12V minimum power on trigger reduction
+		Low battery condition improvement to better correct for hysteresis
+v0.5.0.4	4/27/2022	Battery only power on value reduction to 3.8V
+v0.5.0.5	4/27/2022	Pit Lane Speed Warning continuing on track fix
+		Accident Trigger set to 20G with higher number of samples required to trigger
+v0.5.0.6	4/30/2022	CAN Base / Default Address update
+		Solve CAN settings read error that prevented settings to maintain non-default state
+		Fix charge circuit on v0.3.8.0 hardware
+		Accident trigger higher number of samples required to trigger 
