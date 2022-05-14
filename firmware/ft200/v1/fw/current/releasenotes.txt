@@ -60,3 +60,4 @@ v0.5.0.6	4/30/2022	CAN Base / Default Address update
 		Solve CAN settings read error that prevented settings to maintain non-default state
 		Fix charge circuit on v0.3.8.0 hardware
 		Accident trigger higher number of samples required to trigger 
+v0.5.0.7	5/4/2022	Disable accident detection for additional tuning in the future
