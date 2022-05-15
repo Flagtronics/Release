@@ -36,3 +36,4 @@ v0.31	4/30/2022	Support log format version 2 (with log timestamp)
 		Revisions to Watkins Glen
 		Added Palm Beach
 		Updated logging format handling
+v0.32	5/14/2022	Updated Firmware and installation permissions
