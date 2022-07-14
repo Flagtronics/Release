@@ -1,4 +1,4 @@
-Version	Date	Notes
+Version	Date     	Notes
 v0.10	9/30/2021	Production Version!
 v0.11	10/7/2021	PIRC/PITT Track Map, bug fixes, Multi-select Track Maps
 v0.12	10/10/2021	Firmware & apploader update improvements, language & form changes.
@@ -11,29 +11,46 @@ v0.18	1/29/2022	Add 10 new tracks. Show Serial # & Hardware Revision on startup 
 v0.19	2/11/2022	Add Device Configurations feature providing user with the ability to manage various configurations of device settings.
 v0.20	2/11/2022	Allow default track map to be deselected even when there are multiple track maps
 v0.21	2/15/2022	Add Serial Number, Hardware Version and Firmware Version information into device configuration
-		For Firmware or Apploader update, powerline must be plugged in or the remaining battery must be at least 30% or 45 minutes
-		Fix bugs in Light Input Sensor form
-		Fix: while updating user manual, only download user manual if newer version is available
+	             	For Firmware or Apploader update, powerline must be plugged in or the remaining battery must be at least 30% or 45 minutes
+	             	Fix bugs in Light Input Sensor form
+	             	Fix: while updating user manual, only download user manual if newer version is available
 v0.22	2/21/2022	Change default CAN IDs
 v0.23	2/21/2022	Add folder picker which allows user to enter folder path while selecting Configuration folder
 v0.24	2/23/2022	Add 3 new tracks
-		User manual update to v0.4
+	             	User manual update to v0.4
 v0.25	2/28/2022	Use DataGridView for track map list instead of ListView to have more features for track map form
-		Elaborate the messages shown to user when FT200 requires a full power cycle when user makes some changes
-		Fix exception bug and show progress information while performing Factory Defaults command
-		Fixed potential bugs related to disk scanning timer while doing firmware update
-		User is not allowed to select firmware file while performing firmware update
-		Firmware update process and apploader update process present previous version and new version
+	             	Elaborate the messages shown to user when FT200 requires a full power cycle when user makes some changes
+	             	Fix exception bug and show progress information while performing Factory Defaults command
+	             	Fixed potential bugs related to disk scanning timer while doing firmware update
+	             	User is not allowed to select firmware file while performing firmware update
+	             	Firmware update process and apploader update process present previous version and new version
 v0.26	3/4/2022	Track Map Cleanup, & 1003 rev2 track map update
 v0.27	3/11/2022	Perform sanity check when FT200 is connected to detect flash corrupt and ask for a device format if errors are found
-		Reworked the way FT200 is detected not to use autorun.inf
+	             	Reworked the way FT200 is detected not to use autorun.inf
 v0.28	3/15/2022	v0.4.8.13 Firmware packaged in installer
-		Added Ozarks, Summit Point Main, & Charlotte Roval
+	             	Added Ozarks, Summit Point Main, & Charlotte Roval
 v0.29	3/31/2022	Revisions to NCM, Summit Point, & Daytona
 v0.30	4/6/2022	Revisions to Road America, Sonoma added
 v0.31	4/30/2022	Support log format version 2 (with log timestamp)
-		v0.5.0.6 Firmware packaged in installer
-		Revisions to Watkins Glen
-		Added Palm Beach
-		Updated logging format handling
+	             	v0.5.0.6 Firmware packaged in installer
+	             	Revisions to Watkins Glen
+	             	Added Palm Beach
+	             	Updated logging format handling
 v0.32	5/14/2022	Updated Firmware and installation permissions
+v0.33	5/29/2022	Supports firmware with command file feature (v0.5.0.8 or later)
+	             	Upon device connecting, device sanity check is performed in the background after device information is obtained and displayed
+	             	Added logging feature. Log files are stored in C:\ProgramData\Flagtronics\Device Manager\Logs.
+	             	Reworked firmware update and Bootloader update with less manual steps.
+	             	The software can now work with the device while it's in Bootloader mode.
+	             	Double check when unrecoverable device errors are detected before performing data restoration
+	             	Prevents FT200 units with v0.3.8.0 hardware or higher to be updated with firmware earlier than v0.5.x.x
+v0.34	7/9/2022	Added more delay before doing device sanity check to have more time for Windows to mount device drive
+	             	Support FT200 using firmware earlier than v0.4.8.2
+	             	Automatically open firmware update window if user opts to update latest firmware from cloud
+	             	Round up files size to boundary of 4096 bytes (FT200 sector size) while checking filesystem corruption
+	             	Lower access permission to Firmware, Manual, TrackMap, Configurations folders in <ProgramData>\Flagtronics\Device Manager
+	             	Revised firmware update workflow: local firmware in <ProgramData>\Flagtronics\Device Manager\Frimware is updated first
+	             	Willow Springs v3 update
+	             	CMP v2 update
+	             	Mid-Ohio, Portland International Raceway, Oregon Raceway Park, Nelson Ledges added
+v0.35	7/14/2022	Nelson Ledges v2 update
