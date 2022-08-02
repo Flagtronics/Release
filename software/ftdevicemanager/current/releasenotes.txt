@@ -54,3 +54,8 @@ v0.34	7/9/2022	Added more delay before doing device sanity check to have more ti
 	             	CMP v2 update
 	             	Mid-Ohio, Portland International Raceway, Oregon Raceway Park, Nelson Ledges added
 v0.35	7/14/2022	Nelson Ledges v2 update
+v0.36	7/27/2022	Increase timeout waiting for device reset from 10 seconds to 20 seconds. This change is because FT200 devices need at least 13 second to restore a corrupt filesystem.
+	             	Instruct user to reboot FT200 when track map files are corrupt.
+v0.37	7/28/2022	Display more useful message if executing FT200 command fails
+	             	Fixed: the software didn't resume if it had failed to commit changes
+	             	Improved images used during Firmware update and Bootloader update
