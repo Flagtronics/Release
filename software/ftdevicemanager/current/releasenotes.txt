@@ -59,3 +59,7 @@ v0.36	7/27/2022	Increase timeout waiting for device reset from 10 seconds to 20 
 v0.37	7/28/2022	Display more useful message if executing FT200 command fails
 	             	Fixed: the software didn't resume if it had failed to commit changes
 	             	Improved images used during Firmware update and Bootloader update
+v0.38   8/25/2022   Reworked Track Map Manager using Track Map information from csv file name. Name of a track map file must follow the template "<id>_<name>_<config>_<rev#>.csv"
+                    Ported the modern UI framework from Sign Board Manager software into the software. The new UI framework coexists with the current one.
+                    Track Map Manager was reworked using the new UI framework.
+                    Only one instance of the software is allowed at a time.
