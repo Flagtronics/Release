@@ -63,3 +63,6 @@ v0.38   8/25/2022   Reworked Track Map Manager using Track Map information from 
                     Ported the modern UI framework from Sign Board Manager software into the software. The new UI framework coexists with the current one.
                     Track Map Manager was reworked using the new UI framework.
                     Only one instance of the software is allowed at a time.
+v0.39   9/9/2022    Added Admin Utilities command allowing to perform some high level operations with the software or FT200 device
+                    Implemented Track Map Builder (part of Admin Utilities) which generates track map files (.csv, .trk) from Google Maps data file (.csv, .kml, .kmz)
+                    Implemented GPS Simulation (part of Admin Utilities) which allows toggling GPS simulation on FT200 using Google Maps data file (.csv, .kml, .kmz)
