@@ -66,4 +66,22 @@ v0.38   8/25/2022   Reworked Track Map Manager using Track Map information from 
 v0.39   9/9/2022    Added Admin Utilities command allowing to perform some high level operations with the software or FT200 device
                     Implemented Track Map Builder (part of Admin Utilities) which generates track map files (.csv, .trk) from Google Maps data file (.csv, .kml, .kmz)
                     Implemented GPS Simulation (part of Admin Utilities) which allows toggling GPS simulation on FT200 using Google Maps data file (.csv, .kml, .kmz)
-v0.40   9/17/2022   Fixed bug in detecting device restarting. This bug affected Firmware update and Apploader update          
+v0.40   9/17/2022   Fixed bug in detecting device restarting. This bug affected Firmware update and Apploader update
+v0.41   10/2/2022   Support car crash data dump in log files
+v0.42   10/4/2022   Fixed: Unnecessary restart when changing FT200 sensor brightness mode
+                    Re-arranged columns of realtime log table displayed or exported
+                    Fixed format of accel data in log V1 and V2. Added support for log V3:
+                                      +---------------------+---------------------+
+                                      |    Realtime log     |      Crash log      |
+                                      +-----------+---------+-----------+---------+
+                                      | Data type |  Unit   | Data type |  Unit   |
+                    +--------+--------+-----------+---------+-----------+---------+
+                    | Log V1 | Motion |  int16_t  | 1 mG    |           |         |
+                    |        | Hi-G   |  int8_t   | 100 mG  |           |         |
+                    +--------+--------+-----------+---------+-----------+---------+
+                    | Log V2 | Motion |  int16_t  | 1 mG    |           |         |
+                    |        | Hi-G   |  int8_t   | 100 mG  |  int16_t  | 100 mG  |
+                    +--------+--------+-----------+---------+-----------+---------+
+                    | Log V3 | Motion |  int16_t  | 1 mG    |           |         |
+                    |        | Hi-G   |  int8_t   | 1000 mG |  int16_t  | 100 mG  |
+                    +--------+--------+-----------+---------+-----------+---------+
