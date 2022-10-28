@@ -85,3 +85,7 @@ v0.42   10/4/2022   Fixed: Unnecessary restart when changing FT200 sensor bright
                     | Log V3 | Motion |  int16_t  | 1 mG    |           |         |
                     |        | Hi-G   |  int8_t   | 1000 mG |  int16_t  | 100 mG  |
                     +--------+--------+-----------+---------+-----------+---------+
+v0.43   10/27/2022  Fixed: Support log file V4.
+                    Information extracted from log file's header is displayed on UI as tooltip.
+                    csv files exported from a log file V4 will have more information about the device (DID, versions) in their name
+                    Support Bootloader Updater mode
