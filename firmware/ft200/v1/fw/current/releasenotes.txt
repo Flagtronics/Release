@@ -80,7 +80,24 @@ v0.5.0.10	                 	Add time to looging output
 v0.5.0.11	7/14/2022	Code cleanup
 v0.5.0.12	7/14/2022	Re-enable crash sensor
 	                 	Disable vertical axis in crash sensor
-v0.5.0.13	                 	Update stalled / stopped behavior to match current software use
+v0.5.0.13	8/2/2022	Update stalled / stopped behavior to match current software use
 	                 	Change automatic yellow to sanctioning body / org variable
 	                 	Fix GPS simulation routine in some scenarios
 	                 	Hold on USB startup until file system is updated
+v0.5.0.14	9/18/2022	Signboard mode improvesments for DID announcement correlated to zone
+	                 	Light Curve fixes
+	                 	Default light curve on initial programming is set to 3
+	                 	CAN RX message filter fix
+	                 	Logging buffer changes for crash handling & multiple logging improvements to v3 logging standard
+	                 	Crash sensor update rate change to solve intermittent high data rate errata
+	                 	Add timestamps to log dump header
+v0.5.0.15	10/3/2022	Prevent crash logging when logging is prevented such as in a PC connected state
+	                 	Rescale dynamic G sensor
+	                 	Improvements to log system
+	                 	I2C bus improvements
+	                 	Code Cleanup
+v0.5.0.16	10/23/2022	Quick double press for DID announcement on screen (only last 3 digits)
+	                 	No auto-dim in signboard mode
+v0.5.0.17	10/25/2022	Prevent FT200 from continuous screen cycling in the case of less than 5V on the 12V power supply. 
+	                 	In such a case, a user will need to press the top button, b1, to restart the unit once reliable power is restored.
+v0.5.0.18	10/26/2022	Enable accident detection at 15G while in motion on track
