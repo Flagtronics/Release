@@ -89,3 +89,4 @@ v0.43   10/27/2022  Fixed: Support log file V4.
                     Information extracted from log file's header is displayed on UI as tooltip.
                     csv files exported from a log file V4 will have more information about the device (DID, versions) in their name
                     Support Bootloader Updater mode
+v0.44   10/30/2022  Updated link for Device Manager software update
