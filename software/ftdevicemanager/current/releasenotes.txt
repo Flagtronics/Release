@@ -90,3 +90,10 @@ v0.43   10/27/2022  Fixed: Support log file V4.
                     csv files exported from a log file V4 will have more information about the device (DID, versions) in their name
                     Support Bootloader Updater mode
 v0.44   10/30/2022  Updated link for Device Manager software update
+v0.45   11/15/2022  Limit zones in track maps to 32 vertices
+                    Display SignBoard Mode DID which is available in readme.txt file of FT200 firmware v0.5.1.2 or higher
+v0.46   11/29/2022  Firmware Programmer in Admin Utilities provides the ability to program firmware for track-side devices
+v0.47   12/01/2022  Fixed: old cached firmware files were not removed after the cache was updated with new files
+                    Added firmware version information of running firmware and firmware to update
+v0.48   12/02/2022  While updating track-side hardware, retry scanning for Bootloader drive in case of failure 
+                    Support track-side hardware with older Bootloader (VID 0x04D8, PID 0xE7F3)
