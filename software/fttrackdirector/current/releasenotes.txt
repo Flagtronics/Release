@@ -1,0 +1,193 @@
+Version	Date	Notes
+v0.24	10/29/2021	Alpha Version! 
+v0.25	10/30/2021	PIRC/PITT Track Map, bug fixes, Multi-select Track Maps
+v0.26	10/30/2021	Firmware & apploader update improvements, language & form changes.
+v0.27	11/15/2021	Substantial bug fixes, form updates, AMP, Barber, Sebring added.
+v0.28	11/17/2021	Added Ventura Raceway, speed warning fix.
+v0.29	12/4/2021	Laguna Seca added. No car DB save allowed if no cardata list loaded. Bug fixes, visual improvements. CSV import improvements.
+v0.30	12/6/2021	Major update to forms design across Network Status, Lap Times, Car Position, Pit Times forms.
+v0.31	12/6/2021	Configurable refresh rates for datastream.
+v0.32	12/14/2021	Merge entries, clear locals, db root folder fix, wpf updates, network form updates, bug fixes, configurable refresh rate, more CSV improvements.
+v0.33	12/23/2021	DeviceID 0 mitigation, invalid index bug fix, db cleanup.
+v0.34	1/18/2022	Track Additions, COM Port autodetection, several bug fixes, Network view improvements, Active Cars fix.
+v0.35	1/26/2022	Further COM Port improvements, Serial COM improvements, Add firmware display, bug fixes.
+v0.36	2/1/2022	Firmware sort in network view, Lost laps fix, laps stop counting fix, device firmware version fix.
+v0.37	2/2/2022	Higher max zoom enabled, change map & USB updates to 500ms default, performance updates
+v0.38	2/2/2022	Car Visibility Fixes
+v0.39	2/18/2022	Binary Serial Communication, Major Device & Car Model Updates, New Car Visibility Form, Persistent Car Visibility Settings
+v0.40	2/23/2022	Fix for name entry portion of network list refreshing too quickly
+v0.41	2/28/2022	Device communication improvements to Track Director hardware when the hardware is in use by another process
+v0.42	3/2/2022	Fix crash when clicking on car on map after 24hrs 
+		Fix Changing CarID in network list does not update the car on the map
+		Fix blue car map highlight box fails from network list
+v0.43	3/4/2022	Change Lap Times form flag condition from local flag to full track flag at the time of lap start crossing
+v0.44	3/10/2022	Allow alphanumeric car numbers
+v0.45	3/11/2022	Fix loss of laps in car merge event in network list
+	             	Fix manually added laps considered the best lap time because they are 0:00 laps
+v0.46	3/11/2022	Blue highlight box only works in North up vertical portrait view fix
+	             	Fix lap time sorting bug
+v0.47	3/15/2022	Added Ozarks, Summit Point Main, & Charlotte Roval
+v0.48	3/31/2022	Lap & Pit view selection better synced with other views
+	             	Improved active car handling in time forms
+	             	Device visibility filter text fix
+	             	More information on laps for selected car
+	             	NCM Flag stands update
+	             	Summit point flag stand improvement
+v0.49	4/8/2022	DB Fixes
+	             	Minor cleanups & optimizations
+	             	Daytona DB update
+v0.50	4/14/2022	Alphanumeric sorting fixed (broken after change from int to alphanumeric)
+	             	Improved protection against null or otherwise out of range DB values
+	             	Improved selection sync between forms
+	             	Remove cars that have not completed a lap from time forms
+v0.51	4/19/2022	Road America DB updates
+	             	Palm Beach DB updates
+v0.52	4/19/2022	DB cleanup
+v0.53	4/28/2022	Fix Inactive cars showing initially when active filter is set in visibility settings
+	             	DB cleanup
+	             	New GUI based session logging & export capability
+	             	DB more reilient to bad input data
+	             	Add lap count to race export
+	             	Several improvements to lap time, pit time, lap count systems
+	             	New DB storage with compression for race results
+v0.54	4/30/2022	Vehicle information window now shows vehicle's flag state
+	             	EMS G detection values now display in network, vehicle information views
+v0.55	5/26/2022	Ozarks DB update
+	             	Improved notification for bad GPS or stopped vehicles & network list highlighting
+	             	Add icons for tow vehicle, emergency vehicle, safety car on map & network list
+	             	Improvements to Race Results information
+	             	Add position information to lap times & pit times forms
+	             	Fix directory permissions issues with race results in some cases
+	             	Order lap times & pit times by race position option
+	             	Hallet DB update
+	             	Fix top 10 cars showing track-side hardware if the car count is low
+	             	Improved network selection in some cases
+	             	Track the leader feature
+	             	Lap time minimum feature implemented to highlight possible short laps
+	             	Solve issue when a Car # has a leading zero and is not restored properly with the leading zero from the DB
+	             	Improved Signboard voltage detection for external large batteries
+v0.56	5/26/2022	Lap time minimum feature works on laps prior to setting or changing the value
+	             	Signboard voltage changes
+v0.57	5/29/2022	CSV Import Fix for new device role value
+	             	Fix cross-threading issue
+	             	Add crash reporting & handling
+v0.58	6/17/2022	Flag StandID handling update
+	             	Disconnect Time persistence
+	             	Improved Car Selection & View rendering
+	             	Version added to error logs
+v0.59	6/24/2022	Fix Battery icon's not updating
+	             	Updated flagstand data for CMP, Mid-Ohio, Portland International Raceway, Oregon Raceway Park, and Nelson Ledges
+v0.60	6/30/2022	Fix Race Results CSV export when cars had no laps
+	             	Show Stopped warnings on map if Speed Display set to Warning Only
+	             	Use differing row colors for Bad GPS and Stopped conditions
+	             	Add new PIDs for new device classes
+	             	DB updates
+v0.61	7/14/2022	Nelson Ledges added
+v0.62	8/1/2022	Add Zone to vehicle info
+	             	Added more time display options to race results
+	             	* for edited laps in carposition view
+	             	Reliability improvement for long events with a large number of cars and laps
+v0.63	8/13/2022	Directly import Google Maps csv export for flagstand data / track creation
+	             	Lap removal improvement that automatically selects the highlighted lap
+	             	Flagsstand JSON export
+	             	CarData JSON export
+	             	Improved notification system
+v0.64	8/13/2022	Remove F5, F6, F7 hotkeys
+	             	Scroll Window for Message Output
+	             	Car Data export import improvement
+v0.65	8/18/2022	Gingerman rev3
+	             	Default layout change to have car position in upper right and lap times in lower right of screen
+	             	Form changes to make import & export simpler to use
+	             	Full track flag & clear flag legacy code update
+	             	Car Data import improvements
+	             	Change Flagstand Editor to disallow stand numbering by default (use DisplayName for changes to the visual representation!)
+	             	Improved import & export forms
+	             	Code refactoring & porting to newer base
+v0.66	9/10/2022	Several logging and error related improvements 
+v0.67	10/6/2022	Error reporting improvements
+	             	Error reports sent to Flagtronics email from help menu
+	             	Special vehicles like emergency, tow, pace don't show stopped marker when stopped on track
+	             	Special vehicles no longer show speed warnings when course is green
+	             	Harris Hill rev2 track map
+	             	Prompt user to clear lap & pit times from prior event before starting new event
+	             	Automatic Com port improvements & multi-com port & multi-source data feed capability
+	             	Solved form bug on side of lap times window allowing multiple down scroll arrows to spawn lap edit dialog
+v0.68	10/7/2022	Signed installer fixes
+v0.69	10/19/2022	Fix for misaligned columns in some cases on network list
+	             	Notification feature to warn of vehicles below a specific firmware revision
+v0.70	10/22/2022	Signed installer fixes			
+v0.71	10/30/2022	Added flagstand data for Ridge Motorsports Park, Indianapolis Motor Speedway (Dirt), Nashville City Road Course and Circuit of the Americas
+	             	Keep cars in sync on individual flag dropdown list
+	             	Fix for duplicate car generation from simulation hardware
+	             	Installer Icon file fix
+v0.72	11/19/2022	Parsed serial output debug option
+	             	New volume control
+	             	Improved duplicate carid handling
+	             	Allow track command repetition
+	             	Support for blank full track state
+	             	Improved track state logging
+	             	2nd installer icon file fix
+	             	COTA & NOLA flagstands added
+	             	Save confirmation dialog for track settings 
+	             	Multiple db entry error fix when data is input incorrectly
+v0.73	11/28/2022	Improved command repetition & logging
+	             	Improved messages & debug for user in case of disconnected hardware
+v0.74	12/4/2022	Improve log messages with better full track & local flag information
+	             	Update FCYellow / Local Yellow send & check routine
+	             	Improve track command methodology
+	             	Change local flag stand text from "Green" to "Clear"
+	             	Added debug mode with send & receive data
+	             	Update send and receive data flow over USB
+	             	Add Fire truck & special role to vehicle graphic options
+v0.75	12/7/2022	Add Flatbed Tow vehicle icon
+	             	Fix installer error on some machines
+v0.76	1/21/2023	Further USB parsing improvements
+	             	New icons for local flagging
+	             	New track state response method
+	             	64+ corner channels
+	             	Flag stand import improvements
+	             	Fix map error in some scenarios
+	             	improve local clearing command system
+	             	Add no signal icons
+	             	Add Blank Flag State for green flag starts and other conditions
+	             	Improve impact logging & notifications
+	             	Specific incident log
+	             	Improve cardata import process, cleansing, & validation
+	             	Allow special roles to import & export so vehicles like pace car can be kept race to race
+v0.77	1/25/2023	Improvements to records being passed between subsystems
+	             	Move incident log to default location on right panel
+	             	Shorten text in docks on right for easier interpretation at low resolutions
+	             	Remove logging for invalid speed infractions due to vehicle stopped on track or bad GPS
+v0.78	2/6/2023	Validation to check flag stands are ordered correctly on import
+	             	Reduce incident log repetition & capture highest speed on speeding infractions
+	             	Database update for COTA 
+	             	Added Madison lake 2023
+	             	Fix notification bug
+	             	Code refactoring for improvements in several subsystems
+v0.79	2/10/2023	Update subsystem packages to current
+	             	Refactor Pit & Lap Time Logging
+	             	25MPH default for pit lane speed limit
+	             	Speed tooltip draws from outside instead of center to avoid obscuring car numbers
+	             	Broadcaster sequence diagnostic flag			
+v0.80	2/19/2023	Add broadcaster sequence diagnostic flag warning on map
+	             	Change default minimum lap time to 3s
+	             	Icon change in older form
+	             	Improve Race Results logs & add DeviceID for better correlations in results
+v0.81	2/21/2023	Readme addition
+	             	Increased installer automation and security plus single point versioning
+	             	Graphics for unreferenced flag codes & raw flag codes passed to user
+	             	Race Results bug fixes
+	             	Local Checkered & Local Green conditions added
+v0.81	2/21/2023	Readme addition
+	             	Increased installer automation and security plus single point versioning
+	             	Graphics for unreferenced flag codes & raw flag codes passed to user
+	             	Race Results bug fixes
+	             	Local Checkered & Local Green conditions added
+v0.81.1.0	2/25/2023	Special Roles not saving hotfix
+v0.81.2.0	3/3/2023	Add local green & checkered to vehicles in the network list
+	                 	Track settings form re-work for high % text rendering
+	                 	Do not apply speed violates to cars with special roles
+	                 	Option to remove stopped car display on red flag events
+	                 	Add hh:mm:ss description to minimum time in track settings
+	                 	Show version a.b.c.d components
+v0.81.3.0	3/3/2023	Internal changes & code refactoring for improved group handling						
