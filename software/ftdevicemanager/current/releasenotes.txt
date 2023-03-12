@@ -95,13 +95,20 @@ v0.45   11/15/2022  Limit zones in track maps to 32 vertices
 v0.46   11/29/2022  Firmware Programmer in Admin Utilities provides the ability to program firmware for track-side devices
 v0.47   12/01/2022  Fixed: old cached firmware files were not removed after the cache was updated with new files
                     Added firmware version information of running firmware and firmware to update
-v0.48   12/02/2022  While updating track-side hardware, retry scanning for Bootloader drive in case of failure 
+v0.48   12/02/2022  While updating track-side hardware, retry scanning for Bootloader drive in case of failure
                     Support track-side hardware with older Bootloader (VID 0x04D8, PID 0xE7F3)
 v0.49   12/29/2022  Added the ability to set speed in GPS Simulation
                     Allow user to specify track-side device if generic bootloader is found and the device is initially in Bootloader mode
 v0.50   1/7/2023    In track-side Firmware Programmer, tell user to close Flagtronics Track Director software if TrackDirector device is being connected
                     Unit of speed in PUBX message is km/h instead of knot
                     Support programming a track-side device with firmware of another compatible device (for example, firmware of Broadcaster 4-channel M0 can be programmed on a TrackDirector 4-channel M0)
-                    Indicate on the Main Form if FT200 device is in SignBoard mode 
+                    Indicate on the Main Form if FT200 device is in SignBoard mode
 v0.51   1/18/2023   Fixed bugs causing Track Map Manager and Log Viewer failed to update drive name when FT200 was changed
                     If Track Director software is running, updating Track Director device using Broadcastor firmware is not allowed
+
+
+v1.0.0.0    2/16/2023   Reworked the software to support multiple FT200 and track-side devices
+v1.0.1.0    3/11/2023   Fixed minor typo and grammar in Device Setup screen
+                        Fixed: Track Map Manager didn't save default track map properly
+                        FT200 configuration can be imported/exported (Device Information screen)
+                        Light curve settings can be imported/exported (Device Setup screen)
