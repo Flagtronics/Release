@@ -1,0 +1,5 @@
+1. Copy LightCurve.json in x:\data\lightcurves where x is the drive letter of the FT200 you are working with.
+2. Click yes to replace the existing file.
+3. Copy command.run to the x:\ drive root where x is the drive letter of the FT200.
+4. Wait for the FT200 to save and reboot. 
+5. Check the x:\data\lightcurves\LightCurve.json to make sure the contents are correct.
