@@ -1,0 +1,405 @@
+************************************************************************************************************************
+Version:
+    0.10.4.0
+
+Date:
+    2023 Mar 5
+
+Fixes:
+    1) Frozen firmware update if primary board is disconnected during the update.
+    2) "Save Settings" button in Device Setup screen didn't work if the selected panel didn't have fans.
+    3) "Reset all panels" button in Flag Settings screen sometimes failed to reset one or more panels.
+
+Changes:
+    1) Updated Bootloader firmware of ESP-IDF v4.4.4 (from v4.4.3)
+    2) Added CAN termination resistor status and panel number beside panel name.
+    
+
+************************************************************************************************************************
+Version:
+    0.10.3.0
+
+Date:
+    2023 Feb 21
+
+Notes:
+    1) This version cannot be updated via software OTA update from earlier versions. To update from earlier version,
+       installer file (SignBoard_Device_Manager_Setup_v0.10.3.0.exe) can be used.
+
+Changes:
+    1) Clicking Flagtronics logo opens flagtronics website
+    2) Improved burning firmware in Factory Mode
+    3) Improved software OTA update using version information in AssemblyInfo.cs
+    4) Support local green flag (0x7D) and local checkered flag (0x7E)
+    
+
+************************************************************************************************************************
+Version:
+    0.10.2.0
+
+Date:
+    2023 Jan 22
+
+Changes:
+    1) Fan settings can be changed on-the-fly via Bluetooth by Admin user (Device Setup view)
+    
+
+************************************************************************************************************************
+Version:
+    0.10.1.0
+
+Date:
+    2022 Dec 20
+
+Fixes:
+    1) Last used Bluetooth COM port was not automatically selected when user signed out a working sessiion
+    2) The software is unresponsive for a short interval on entering Firmware Update view
+
+Changes:
+    1) Allow Admin user to configure drive strength of LAT signal. This can solve the individual pixels issue.
+       This setting is only supported by firmware v0.7.2.0 or higher.
+    2) Baudrate of UART interface in Factory Mode was increased from 230400 to 921600 bps
+    
+
+************************************************************************************************************************
+Version:
+    0.10.0.0
+
+Date:
+    2022 Nov 21
+
+Notes:
+    1) Admin user on this version is only supported by SignBoard firmware v0.7.0.0 or higher
+    2) Factory mode selection switch is only visible when Admin user and wired COM port are selected.
+
+Changes:
+    1) Implemented user management schemes: Operator user (normal user) and Admin user. While Operator user can only
+       access to some basic settings and features of the software, Admin user can additionally access to all hidden 
+       settings and  advanced features.
+    2) Flag Display Test screen is not visible for normal user any more. It can only be accessed by Admin user.
+    
+
+************************************************************************************************************************
+Version:
+    0.9.1.1
+
+Date:
+    2022 Nov 17
+
+Changes:
+    1) Fan status (state, error, speed, power) is indicated on the software
+    2) Fan settings can be configured in Factory mode
+    3) If logged in with Factory mode, disconnecting the currently used COM port won't cause Factory mode to exit.
+    
+
+************************************************************************************************************************
+Version:
+    0.9.0.0
+
+Date:
+    2022 Nov 6
+
+Fixes:
+    1) Bug: Factory mode selection switch in sign-in screen disappeared when connecting with new panel having the 
+            same COM port as the previous panel.
+
+Changes:
+    1) Refresh button in sign-in screen now forces Windows to rescan all Bluetooth devices
+    2) Added "Open Bluetooth Devices Settings" command in sign-in screen menu
+    3) If Bluetooth is not enabled when the software starts, suggest user to enable it
+    4) Added Bluetooth Manager which allows user to manage Bluetooth connection with SignBoard panels on the software
+    5) Indicate if FT200 is present on the CAN bus
+    
+
+************************************************************************************************************************
+Version:
+    0.8.10.0
+
+Date:
+    2022 Oct 23
+
+Changes:
+    1) Displayed both detected and corrected values for battery voltage (corrected = detected + 0.5V)
+    2) Timeout for green screen of full-course green flag can be configured
+    3) Allow user to use cloud firmware stored in cache for firmware update
+    4) New "Bluetooth repair utilities" in software option menu providing commands to cycle Windows Bluetooth 
+       controller, restart Device Association Service, and remove all Bluetooth ports
+    5) Added "BF" option to full-course Black Flag
+    
+
+************************************************************************************************************************
+Version:
+    0.8.9.0
+
+Date:
+    2022 Sep 19
+
+Notes:
+    1) This version is only compatible with Sign Board firmware v0.6.0.0 or higher. The software will refuse to work
+       with panels running firmware earlier than v0.6.0.0
+    2) For those panels whose firmware is earlier than v0.6.0.0, they must first be upgraded to firmware v0.6.0.0 or
+       higher with SignBoard Device Manager v0.7.3.0.
+
+Changes:
+    1) Fixed bug that caused firmware burning in Factory Mode not to work when Python 2 and Python 3 co-exist
+    2) Allow flag settings to be imported/exported from/to an XML file
+    3) When panel name is changed in Device Setup screen or Factory Settings screen, the new name is reflected on the UI
+    4) Panels are validated at the point they are selected by user, when user signs in the software, or when the 
+       selected panel re-connects after a connection loss.
+    5) Batch firmware update for multiple panels of a Sign Board.
+    
+
+************************************************************************************************************************
+Version:
+    0.8.8.2
+
+Date:
+    2022 Sep 2
+
+Notes:
+    1) This version is only compatible with Sign Board firmware v0.6.0.0 or higher. The software will refuse to work
+       with panels running firmware earlier than v0.6.0.0
+    2) For those panels whose firmware is earlier than v0.6.0.0, they must first be upgraded to firmware v0.6.0.0 or
+       higher with SignBoard Device Manager v0.7.3.0.
+
+Changes:
+    1) Allow CAN termination resitor to be toggled for master panel. Note that termination resistor is only available
+       in Sign Board hardware v5.0 or higher.
+    2) Fixed bug which may cause parsed value of some non-volatile settings to be incorrect
+    3) Improved query dialog service
+    
+
+************************************************************************************************************************
+Version:
+    0.8.7.0
+
+Date:
+    2022 Aug 20
+
+Notes:
+    1) This version is only compatible with Sign Board firmware v0.6.0.0 or higher. The software will refuse to work
+       with panels running firmware earlier than v0.6.0.0
+    2) For those panels whose firmware is earlier than v0.6.0.0, they must first be upgraded to firmware v0.6.0.0 or
+       higher with SignBoard Device Manager v0.7.3.0.
+
+Changes:
+    1) Removed project name information out of firmware update screen
+    
+
+************************************************************************************************************************
+Version:
+    0.8.6.0
+
+Date:
+    2022 Aug 12
+
+Notes:
+    1) This version is only compatible with Sign Board firmware v0.6.0.0 or higher. The software will refuse to work
+       with panels running firmware earlier than v0.6.0.0
+    2) For those panels whose firmware is earlier than v0.6.0.0, they must first be upgraded to firmware v0.6.0.0 or
+       higher with SignBoard Device Manager v0.7.3.0.
+
+Changes:
+    1) Flag settings can now be aligned across panels of a Sign Board. Whenever a flag setting change is made on a
+       panel, other panels of the same Sign Board will also have the change.
+    2) For Sign Board firmware v0.6.4.0 or higher, flag setting changes in Flag Settings screen are applied on-the-fly 
+       (without a reboot). For earlier firmware, a device reboot is required to make setting changes to take effect.
+
+
+************************************************************************************************************************
+Version:
+    0.8.5.1
+
+Date:
+    2022 Aug 7
+
+Notes:
+    1) This version is only compatible with Sign Board firmware v0.6.0.0 or higher. The software will refuse to work
+       with panels running firmware earlier than v0.6.0.0
+    2) For those panels whose firmware is earlier than v0.6.0.0, they must first be upgraded to firmware v0.6.0.0 or
+       higher with SignBoard Device Manager v0.7.3.0.
+
+Changes:
+    1) In Device Setup page, press Enter or ESC key to commit or discard a change on a setting which a being focused, 
+       respectively.
+    2) In Factory Settings page, press ESC key to discard a change on a setting which a being focused.
+    3) Added Software Settings dialog to allow software settings to be changed.
+    4) Last used sign-in password ccan be remembered and reused. This can be toggled in Software Settings dialog.
+    5) Added menu shortcuts in Sign-in screen to access Software Settings dialog and folder containing log files.
+    6) When the software starts, automatically check for newer software version on Github repository and suggest user to 
+       perform the software update. This can be toggled in Software Settings dialog.
+
+
+************************************************************************************************************************
+Version:
+    0.8.4.0
+
+Date:
+    2022 Jul 27
+
+Notes:
+    1) This version is only compatible with Sign Board firmware v0.6.0.0 or higher. The software will refuse to work
+       with panels running firmware earlier than v0.6.0.0
+    2) For those panels whose firmware is earlier than v0.6.0.0, they must first be upgraded to firmware v0.6.0.0 or
+       higher with SignBoard Device Manager v0.7.3.0.
+
+Changes:
+    1) Embedded CH340 driver into the software installer so that the driver can be installed when user installs the 
+       software
+
+
+************************************************************************************************************************
+Version:
+    0.8.3.1
+
+Date:
+    2022 Jul 24
+
+Notes:
+    1) This version is only compatible with Sign Board firmware v0.6.0.0 or higher. The software will refuse to work
+       with panels running firmware earlier than v0.6.0.0
+    2) For those panels whose firmware is earlier than v0.6.0.0, they must first be upgraded to firmware v0.6.0.0 or
+       higher with SignBoard Device Manager v0.7.3.0.
+
+Changes:
+    1) New Factory Mode which provides the ability to burn firmware and device settings over USB-serial even while
+       Sign Board pannel is not running any firmware.
+    2) Indicates link quality and Received Signal Strength Indicator (dBm) on Sign Board software. This feature is
+       only available on Sign Board firmware v0.6.2.0 or higher.
+    3) Embeded CH340 driver into the software installer so that the driver can be installed when user isntalls the 
+       software
+
+
+************************************************************************************************************************
+Version:
+    0.8.2.0
+
+Date:
+    2022 Jul 7
+
+Notes:
+    1) This version is only compatible with Sign Board firmware v0.6.0.0 or higher. The software will refuse to work
+       with panels running firmware earlier than v0.6.0.0
+    2) For those panels whose firmware is earlier than v0.6.0.0, they must first be upgraded to firmware v0.6.0.0 or
+       higher with SignBoard Device Manager v0.7.3.0.
+
+Changes:
+    1) Allow user to toggle Windows' Bluetooth interface and Device Association Service to fix issues if any of 
+       Windows' Bluetooth controller.
+
+
+************************************************************************************************************************
+Version:
+    0.8.1.0
+
+Date:
+    2022 Jul 1
+
+Notes:
+    1) This version is only compatible with Sign Board firmware v0.6.0.0 or higher. The software will refuse to work
+       with panels running firmware earlier than v0.6.0.0
+    2) For those panels whose firmware is earlier than v0.6.0.0, they must first be upgraded to firmware v0.6.0.0 or
+       higher with SignBoard Device Manager v0.7.3.0.
+
+Changes:
+    1) Report battery information next to temperature information
+
+
+************************************************************************************************************************
+Version:
+    0.8.0.1
+
+Date:
+    2022 Jun 27
+
+Notes:
+    1) This version is only compatible with Sign Board firmware v0.6.0.0 or higher. The software will refuse to work
+       with panels running firmware earlier than v0.6.0.0
+    2) For those panels whose firmware is earlier than v0.6.0.0, they must first be upgraded to firmware v0.6.0.0 or
+       higher with SignBoard Device Manager v0.7.3.0.
+
+Changes:
+    1) The software can work directly with Master panel via Bluetooth and indirectly with other panels of the same Sign
+       Board via the Master panel.
+       
+       Master panel is the one having the greatest MAC address of all panels of the Sign Board. Master panel
+       communicates with Sign Board software via Bluetooth SPP and with other panels via CAN bus (using SignBoard
+       protocol).
+       
+       Only Master panel has Bluetooth turned on. Once signing in Master panel, Sign Board software will be able to
+       work not only with the Master panel itself but also with other panels through the help of Master panel: all
+       messages between Sign Board software and other panels are converted and forwarded back and forth between
+       Bluetooth interface and CAN bus by Master panel. Master panel also monitors the aliveness of other panels and
+       informs Sign Board software when a new panel joins the CAN bus or one leaves the bus.
+    2) Display Sign Board temperature on the UI if that information is available.
+    3) Added Static Color testing in Flag Display Test page
+
+
+************************************************************************************************************************
+Version:
+    0.7.3.0
+
+Date:
+    2022 Jun 16
+
+Notes:
+    1) This version is only compatible with panels runnning firmware v0.5.x.x or earlier. The software will refuse to
+       work with panels running firmware v0.6.x.x or higher.
+    2) This version is available as a separate development branch "v0.5.3.0" of Sign Board software repository. It is
+       not merged into master branch.
+
+Changes:
+    1) Fixed bugs in manipulating COM port which may cause software crash.
+    2) Supports firmware upgrade for panels running firmware v0.5.x.x or earlier to v0.6.x.x or higher.
+
+
+************************************************************************************************************************
+Version:
+    0.7.2.1
+
+Date:
+    2022 Jun 3
+
+Notes:
+    This version is only compatible with Sign Board firmware v0.5.2.1 or higher
+
+Changes:
+    1) Added Flag Settings page to allow the appearance and flashing frequency of the following flags to be configured:
+        + Full track purple (Flagtronics purple or FiA code 60)
+        + Full track black (Flagtronics black or FiA black)
+        + Full track green (Flagtronics green or FiA green)
+        + Full track checkered
+        + Full track red
+        + Full track yellow (Flagtronics yellow or FiA yellow)
+        + Full track debris
+        + Full track blue
+        + Local standing yellow
+        + Local waving yellow (Flagtronics waving yellow or FiA double yellow)
+        + Local debris (Flagtronics debris or FiA slippery surface)
+        + Local yellow + debris
+        + Local waving yellow + debris
+        + Local white
+        + Local yellow + white
+        + Local waving yellow + white
+        + Local white + debris
+        + Local blue
+    2) For cloud firmware update, use the released firmware in Flagtronics/SignBoard repo (binaries/SignBoard_ESP32.bin
+       of main branch) instead of AWS S3 bucket.
+    3) Allows Bluetooth name to be customized partially with name suffix
+
+
+************************************************************************************************************************
+Version:
+    0.7.1.0
+
+Date:
+    2022 May 8
+
+Notes:
+    This software is only compatible with Sign Board firmware v0.5.0.0 or later
+
+Changes:
+    1) Supports Sign Board configurations 2x2 and 2x3 (beside the current 1x2)
+    2) Sign Board bluetooth ports are recognized with "SignBoard" keyword instead of "FlagTronics" keyword. This
+       causes Sign Board software v0.7.1.0 is only compatible with Sign Board firmware v0.5.0.0 or later.
+    3) Click connection icon in the top-left corner of the UI will command the relevant panel to identify itself.
