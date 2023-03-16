@@ -127,3 +127,13 @@ v0.6.0.2	2/6/2023	Fix overflow for zone look up in pits(128)
 v0.6.0.3	2/9/2023	Signboard mode ignores trackmap commands
 	                 	Code35 flashing / message change.
 v0.6.0.4	2/9/2023	Reduced Heartbeat rate when in the pits (12s)
+v0.6.0.5	3/9/2023	Reduced Heartbeat in Signboard mode (10s) except when flag state changes
+	                 	Reduced Logging in Signboard mode
+	                 	Change CAN message to debug instead of Warning
+	                 	Add zone information to Signboard CAN datastream
+v0.6.0.6	3/11/2023	Fix LightCurve.json data corruption issue due incorrect file append
+	                 	Increased glitch filter to reduce false positive accident incidents
+v0.6.0.7	3/15/2023	Fix race condition in trackmap update system
+	                 	TrackMap Code refactor
+v0.6.0.8	3/16/2023	Track limit increased from 64 to 255. Rework to handle more scheduled.
+	                 	Improve signboard identification message filtering to prevent 0x0B / 11 as a voltage value of 6.1V
