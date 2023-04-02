@@ -112,3 +112,11 @@ v1.0.1.0    3/11/2023   Fixed minor typo and grammar in Device Setup screen
                         Fixed: Track Map Manager didn't save default track map properly
                         FT200 configuration can be imported/exported (Device Information screen)
                         Light curve settings can be imported/exported (Device Setup screen)
+v1.1.0.0    3/31/2023   Support FT200 demo firmware
+                        Support TrackMap OTA M0 device
+                        Fix: Firmware update banner still shown after a successful firmware update
+                        Support Read Only Track Director
+                        Add offline mode. Track Map Builder is moved from FT200 device into offline mode.
+                        Add a 2 second delay after programming track-side hardware device
+                        If firmware update of a track-side device fails and the device's PID&VID are still present, offer auto-recovery
+                        
