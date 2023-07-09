@@ -141,3 +141,14 @@ v0.6.0.9	3/16/2023	Org specific version
 v0.6.0.10	3/19/2023	Disable CAN autoretransmission
 v0.6.0.11	3/22/2023	Low battery power shutdown improvements
 v0.6.0.12	3/22/2023	Org specific version
+v0.6.0.13	3/22/2023	Org specific version
+v0.6.0.14	3/22/2023	Org specific version
+	                 	Statis analysis based improvements
+	                 	Make pit lane speed limits effective in zones 128-143
+	                 	Logging improvements
+	                 	No logging when PC connected
+	                 	Check for null terminations
+v0.6.1.1	7/3/2023	Add offline logging viewer & signboard logging related updates
+		Code 35 override for locals but not individual flags. We choose Code35 because it is the safer of the available conditions in all local instances.
+		Fix bug in FT200 local zone wireless reporting where FT200 may show a local condition even in an overriden state such as full course red. This matches local to reported wireless condition.
+v0.6.1.2	7/4/2023	Change blue flag condition to only render on signboard FT200s
