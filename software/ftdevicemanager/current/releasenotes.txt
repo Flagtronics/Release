@@ -124,3 +124,11 @@ v1.2.0.0    4/9/2023    Added Log Viewer into offline mode
                         Prevent autoplay of USB removable disks of data storage type while the software is running
                         Added device connection setting group in Software Setup screen
                         Log Viewer supports log files of SignBoad mode beside In-car mode
+v1.2.1.1    7/3/2023    Fixed unhandled exceptions of abandoned mutex and modified collection
+                        Fixed unnecessary error message when custom firmware is selected
+                        Added setting for light input sensor in Device Setup screen
+                        Resend "?" query if invalid response is received from track-side device
+                        Lock FT200 custom firmware name: "flagging.bin" for Main firmware and "appload.bin" for Bootloader firmware
+                        Support ".zip" file for FT200 firmware update
+                        Support ".zip" file for track-side device firmware update
+                        Changed "Auto turn off after 30 minutes without external power" to "Auto turn off after 15 minutes without external power"
