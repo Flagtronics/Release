@@ -132,3 +132,6 @@ v1.2.1.1    7/3/2023    Fixed unhandled exceptions of abandoned mutex and modifi
                         Support ".zip" file for FT200 firmware update
                         Support ".zip" file for track-side device firmware update
                         Changed "Auto turn off after 30 minutes without external power" to "Auto turn off after 15 minutes without external power"
+v1.3.0.0    7/28/2023   Track map of TrackMapOta device can be specified on updating firmware
+                        Show track information of TrackMapOTA in Device Information screen
+                        Support new track-side device firmware with LRC checksum in serial communication
