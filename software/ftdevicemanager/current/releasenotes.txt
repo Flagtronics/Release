@@ -135,3 +135,9 @@ v1.2.1.1    7/3/2023    Fixed unhandled exceptions of abandoned mutex and modifi
 v1.3.0.0    7/28/2023   Track map of TrackMapOta device can be specified on updating firmware
                         Show track information of TrackMapOTA in Device Information screen
                         Support new track-side device firmware with LRC checksum in serial communication
+v1.4.0.0    08/21/2023  Reworked UI of Device Information page to make the command buttons more accessible to user.
+                        Added Github release workflow which is triggered when a PR is merged into master branch.
+                        Replaced "Offline mode" panel with "Admin Tools" panel.
+                        Added "Device Enumeration" page in Admin Tools panel.
+                        Check TrackMaps repository for the most recent track maps and revisions. Download the newest copy if new trackmaps are available.
+                        Use GitHub REST API to get list of and download track-side firmware and track maps. Rate limit for PAT access is 5000 requests/hours.
