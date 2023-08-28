@@ -141,3 +141,8 @@ v1.4.0.0    08/21/2023  Reworked UI of Device Information page to make the comma
                         Added "Device Enumeration" page in Admin Tools panel.
                         Check TrackMaps repository for the most recent track maps and revisions. Download the newest copy if new trackmaps are available.
                         Use GitHub REST API to get list of and download track-side firmware and track maps. Rate limit for PAT access is 5000 requests/hours.
+v1.5.0.0    08/27/2023  Allow sorting by name and config in Track Map Manager
+                        Allow OTA track map update to be triggered manually in Track Map Manager
+                        Add CAN termination resistor support for v0.9.3.0 & higher FT200 hardware
+                        Improved log sorting by log ID number
+                        Detect and restore damaged track map csv files with their latest version on cloud
