@@ -238,10 +238,15 @@ v0.82.7		6/22/2023		Org name case sensitivity fix
 		             		New COM port reset behavior to help with virtualization
 v0.82.8		7/4/2023		Add Pickup Truck Special Vehicle Class		
 v0.82.9		7/9/2023		Add White + Debris, White + Standing Yellow + Debris, & White + Waving Yellow + Debris handling. W+St.Yellow+DB = St. Yellow+DB in SW. W+Wav.Yellow+DB = Wav.Yellow+DB in SW.		
-v0.82.10	7/9/2023		Database cleanup for redundant and overlapping entries, ghost tables, and other issues created by recent track additions. Code changes to force better user input sanitization.
-v0.82.11		9/5/2023		Additional safeguards & fixes for Network List sorting & operations
+v0.82.10	7/9/2023		Database cleanup for redundant and overlapping entries, ghost tables, and other issues created by recent track additions. Code changes to force better user input sanitization.		
+v0.82.11	9/5/2023		Additional safeguards & fixes for Network List sorting & operations
 		             		REQUIRES TD firmware update! Add additional checks to PC <-> TD communication
 		             		Warning for older TD firmware to update
-		             		Add CTRL-SHIFT-x hotkeys for full track states
-v0.82.12		9/13/2023		Port Config changes to Connection Manager for a major communication overhaul. Now software is capable of TCP connections both local and remote.
-v0.82.13		9/14/2023		Improves reliability for multiple TCP & COM port sources concurrently available
+v0.82.12	9/13/2023		Port Config changes to Connection Manager for a major communication overhaul. Now software is capable of TCP connections both local and remote.
+v0.82.13	9/14/2023		Improves reliability for multiple TCP & COM port sources concurrently available
+v0.82.14	9/22/2023		Offer automatic accident clearing for incidents where a car has an accident but continues without need for emergency services
+							Add incident log to default layout view
+v0.82.15	9/24/2023		Add track settings option to hide zone 0 (no track map loaded) stopped car icons on map
+v0.82.16	9/24/2023		Read only track directors connected via tcp can now timeout, and reset
+		             		Add new device visibility filters for special vehicles such as Pace car, ambulance, rollbacks, hook trucks, etc
+		             		Update database with Flagtronics simulation cardata							
