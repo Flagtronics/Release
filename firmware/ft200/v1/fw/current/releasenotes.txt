@@ -164,3 +164,4 @@ v0.6.2.4	9/4/2023	Fix edge condition with high speed logging in multiple rollove
 v0.6.4.4	9/5/2023	Updates for v0.9.5 HW & new GPS hardware
 v0.6.4.5	9/6/2023	Org specific version
 v0.6.4.6	9/6/2023	Org specific version
+v0.6.4.7	9/19/2023	Autoclears an incident condition if a car continues racing.
