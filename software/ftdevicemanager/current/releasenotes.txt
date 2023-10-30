@@ -147,3 +147,9 @@ v1.5.0.0    08/27/2023  Allow sorting by name and config in Track Map Manager
                         Improved log sorting by log ID number
                         Detect and restore damaged track map csv files with their latest version on cloud
 v1.5.1.0    08/31/2023  Fixed bug causing the software to crash when changing General settings on hardware v0.3.8.0 or earlier.
+v1.6.0.0    22/10/2023  Added support for Ethernet Track Director device:
+                        + Device Information
+                        + Device Setup
+                        + MCU2 Firmware Update
+                        + Device Enumeration (Admin Tools)
+                        Fixed the bug causing the software to crash when commanding track-side device to enter Bootloader mode.
