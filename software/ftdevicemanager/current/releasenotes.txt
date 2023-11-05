@@ -153,3 +153,8 @@ v1.6.0.0    22/10/2023  Added support for Ethernet Track Director device:
                         + MCU2 Firmware Update
                         + Device Enumeration (Admin Tools)
                         Fixed the bug causing the software to crash when commanding track-side device to enter Bootloader mode.
+v1.7.0.0    30/10/2023  Added battery voltage information into Device Information page (both USB and Ethernet interfaces).
+                        Added button for checking latest firmware on cloud (FT200 and track-side device).
+                        Allow programming (Bootloader and Main firmware) a blank Xiao SAMD21 to be a Track Director Simulator.
+                        Added MAC address information of Ethernet track-side device into Device Information page (admin user).
+                        Support Track Director / Broadcaster Hybrid M0 and Track Director / Broadcaster Hybrid M4.
