@@ -158,3 +158,6 @@ v1.7.0.0    30/10/2023  Added battery voltage information into Device Informatio
                         Allow programming (Bootloader and Main firmware) a blank Xiao SAMD21 to be a Track Director Simulator.
                         Added MAC address information of Ethernet track-side device into Device Information page (admin user).
                         Support Track Director / Broadcaster Hybrid M0 and Track Director / Broadcaster Hybrid M4.
+v1.8.0.1    20/11/2023  Improved track-side device scanning process
+                        OTA firmware update for ATSAMD51 through Ethernet interface
+                        Fixed many bugs
