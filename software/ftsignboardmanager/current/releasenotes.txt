@@ -1,5 +1,63 @@
 ************************************************************************************************************************
 Version:
+    1.3.0.0
+
+Date:
+    2023 Dec 3
+
+Notes:
+    The changes in this version require SignBoard firmware v0.10.0.0 or higher.
+
+Changes:
+    1) Support 2x4 configurations
+    2) Allow all panels to be reset in Device Setup screen
+    3) List of panels are sorted in alphabet order of panel name.
+    4) If dependencies for BriefLZ compression is missing, continue the firmware update with uncompressed data.
+
+
+************************************************************************************************************************
+Version:
+    1.2.0.0
+
+Date:
+    2023 Aug 2
+
+Notes:
+    The changes in this version require SignBoard firmware v0.9.0.0 or higher.
+
+Changes:
+    1) Supports new state-of-charge curves of SignBoard firmware v0.8.1.0: power supply and lead acid battery.
+    2) Separated Pit Entry flag and Pit Entry Closed flag out of local Blue flag and local White flag, respectively.
+    3) Pit Entry flag and Pit Entry Closed flag can be tested in Flag Display Test screen.
+    4) Revised arrangement of buttons testing flags in Flag Display Test screen.
+
+
+************************************************************************************************************************
+Version:
+    1.1.0.0
+
+Date:
+    2023 July 18
+
+Notes:
+    Some of new features in this version require SignBoard firmware v0.8.0.0 or higher.
+
+Changes:
+    1) State-of-charge curve can be selected in Device Setup screen and Admin user. This setting is visible only for
+       SignBoard firmware v0.8.0.0 or higher.
+    2) Indicate battery percentage and battery level on the main UI.
+    3) Added FiA Full Course Yellow (FCY) flag. Full Course Yellow flag can now be selected from Flagtronics Yellow,
+       FiA FCY, and FiA Yellow flags.
+    4) Added FiA Pit Entry flag. Local blue flag can now be selected from Blue, Green (pit entry for small track),
+       or FiA Pit Entry flags.
+    5) Added FiA Pit Entry Closed flag. Local white flag can now be selected from White, Red (pit entry closed for
+       small track), or FiA Pit Entry Closed flags.
+    6) Added workflow tagging and releasing the software on merging a pull-request (with software version changed) to
+       "main" branch.
+
+
+************************************************************************************************************************
+Version:
     1.0.1.3
 
 Date:
