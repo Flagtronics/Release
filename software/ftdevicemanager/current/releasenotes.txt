@@ -161,3 +161,7 @@ v1.7.0.0    30/10/2023  Added battery voltage information into Device Informatio
 v1.8.0.1    20/11/2023  Improved track-side device scanning process
                         OTA firmware update for ATSAMD51 through Ethernet interface
                         Fixed many bugs
+v1.9.0.1    14/12/2023  The software support both x64 and x86 modes, x64 mode is preferred.
+                        For track-side devices with Ethernet capability, keep Ethernet Controller Firmware Update tab while updating over USB.
+                        Added issue report mechanism.
+                        Revised the notice text reminding the user to save and restart FT200 to apply changes.
