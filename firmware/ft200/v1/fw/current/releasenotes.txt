@@ -165,3 +165,14 @@ v0.6.4.4	9/5/2023	Updates for v0.9.5 HW & new GPS hardware
 v0.6.4.5	9/6/2023	Org specific version
 v0.6.4.6	9/6/2023	Org specific version
 v0.6.4.7	9/19/2023	Autoclears an incident condition if a car continues racing.
+v0.6.4.8	9/19/2023	Org specific version
+v0.6.4.9	9/25/2023	Org specific version
+v0.6.4.10	9/25/2023	Org specific version
+v0.6.4.11	9/26/2023	Org specific version
+v0.6.4.12	11/2/2023	Change watchdog from timer, remove 5 reset limit per boot cycle
+v0.6.4.13	11/2/2023	Org specific version
+v0.6.4.14	11/2/2023	Org specific version
+v0.6.4.15	11/27/2023	Fixed signboard heartbeat delay bug, when many flag changes happen.
+v0.6.5.0	11/28/2023	Change to show leading zeroes of DID when clicking both front buttons
+	                 	Change heartbeat timer increment to restart the counter rather than increment the timer forward on flag changes. This solves a bug where rapid flag changes could cause a long heartbeat interval.
+	                 	Remove WDT limit of 5 per boot cycle
