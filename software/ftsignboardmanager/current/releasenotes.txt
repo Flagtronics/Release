@@ -1,5 +1,23 @@
 ************************************************************************************************************************
 Version:
+    1.4.0.1
+
+Date:
+    2023 Dec 16
+
+Notes:
+    The changes in this version require SignBoard firmware v0.11.0.0 or higher.
+
+Changes:
+    1) Support 3x3 configurations.
+    2) Allow all panels to be quickly selected/deselected for firmware update.
+    3) Both x86 and x64 platforms are supported, x64 is preferred.
+    4) Added issue report mechanism.
+    5) Improved uninstallation and installation processes.
+
+
+************************************************************************************************************************
+Version:
     1.3.0.0
 
 Date:
