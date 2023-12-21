@@ -249,4 +249,43 @@ v0.82.14	9/22/2023		Offer automatic accident clearing for incidents where a car 
 v0.82.15	9/24/2023		Add track settings option to hide zone 0 (no track map loaded) stopped car icons on map
 v0.82.16	9/24/2023		Read only track directors connected via tcp can now timeout, and reset
 		             		Add new device visibility filters for special vehicles such as Pace car, ambulance, rollbacks, hook trucks, etc
-		             		Update database with Flagtronics simulation cardata							
+		             		Update database with Flagtronics simulation cardata
+v0.82.17	9/27/2023		Update database with Flagtronics Office Flagstand data
+		             		Resolve connection bug when a USB device was active and unplugged
+		             		Provide persistence for FT200 Battery & Temperature information to avoid null data when switching between sources
+v0.82.18	10/4/2023		Change to broadcast messages on some communication
+		             		Remove excessive channel logging
+		             		Improve LRC checks
+v0.82.19	11/4/2023		Added heartbeat for TCP connections
+		             		Improved communication core & source information
+		             		Allow searches in network list
+		             		Bug fix for crash
+		             		Add RX/TX light graphics for multiple TD use
+		             		Filter improvements
+		             		Add zones column as option in network list
+		             		Add guard for sorting during edit operations bug  
+v0.82.20	11/4/2023		Add autoscroll option in logs to make it simpler to go back and review incidents
+		             		Programmable delay for flag condition enforcement
+		             		Improve temperature logging
+		             		Allow incident log searching
+v0.82.21	12/1/2023		Allow speed display on individual cars when software is set to show speeds only on warning
+		             		CardData reference file updates & template feature
+		             		Show active cars on track value in bottom of network list
+		             		FlagStandData reference file updates & template feature
+		             		Improved flagstand import process
+		             		Bug fixes
+		             		Improve car speed violation reporting
+		             		Fix car speed violation reporting value inversion
+		             		Change Full Course Black Flag Icon to better show when BF is active
+		             		Fix flagstand data deletion bug
+		             		Connection Manager Improvements
+v0.82.22	12/1/2023		Bug Fix for null value in device detection routine
+v0.82.23	12/2/2023		Another bug Fix for null value in device detection routine
+v0.83.00	12/21/2023		Additional corner controller information in Network List
+		             		Add scaling for inverter, LiFePO4, & Lead Acid Signboards Batteries
+		             		Add Zone error codes
+		             		Redundancy check performance improvements
+		             		Move to x64 preferred for isntallation
+		             		Update keep database user installation dialog
+		             		Improve active cars on track performance
+v0.83.10	12/21/2023		Release publish test
