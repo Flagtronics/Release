@@ -289,3 +289,5 @@ v0.83.00	12/21/2023		Additional corner controller information in Network List
 		             		Update keep database user installation dialog
 		             		Improve active cars on track performance
 v0.83.10	12/21/2023		Release publish test
+v0.83.11	12/22/2023		Frequency change feature
+		             		Installer bug fixes
