@@ -291,3 +291,4 @@ v0.83.00	12/21/2023		Additional corner controller information in Network List
 v0.83.10	12/21/2023		Release publish test
 v0.83.11	12/22/2023		Frequency change feature
 		             		Installer bug fixes
+v0.83.12	12/22/2023		Installer bug fixes
