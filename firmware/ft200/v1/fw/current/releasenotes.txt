@@ -176,3 +176,5 @@ v0.6.4.15	11/27/2023	Fixed signboard heartbeat delay bug, when many flag changes
 v0.6.5.0	11/28/2023	Change to show leading zeroes of DID when clicking both front buttons
 	                 	Change heartbeat timer increment to restart the counter rather than increment the timer forward on flag changes. This solves a bug where rapid flag changes could cause a long heartbeat interval.
 	                 	Remove WDT limit of 5 per boot cycle
+v0.6.5.1	12/15/2023	Additional checking on GPS fix to improve GPS error detection on Enhanced & Pro GPS
+v0.6.5.2	12/22/2023	Changed to sfLapTimeMs lap time output						
