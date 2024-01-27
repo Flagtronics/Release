@@ -178,3 +178,7 @@ v0.6.5.0	11/28/2023	Change to show leading zeroes of DID when clicking both fron
 	                 	Remove WDT limit of 5 per boot cycle
 v0.6.5.1	12/15/2023	Additional checking on GPS fix to improve GPS error detection on Enhanced & Pro GPS
 v0.6.5.2	12/22/2023	Changed to sfLapTimeMs lap time output						
+v0.6.5.3	1/9/2024	Org specific version (WRL)
+v0.6.5.4	1/26/2024	Fix for edge condition caused by intermittent connection on Standard GPS.
+v0.7.0.0	1/26/2024	HDOP hotfix
+	                 	Decrease time for GPS correction in case of a failed connection
