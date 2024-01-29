@@ -294,4 +294,9 @@ v0.83.10		12/21/2023		Release publish test
 v0.83.11		12/22/2023		Frequency change feature
 	    	             		Installer bug fixes
 v0.83.12		12/22/2023		Installer bug fixes
-v0.83.13		12/23/2023		Network list editing bug fix
+v0.83.13		12/23/2023		Network list editing bug fixv0.83.13		12/23/2023		Network list editing bug fix
+v0.83.14		1/19/2024		Allow user creation of devices
+	    	             		Retrieve flagstand information from tracks.flagtronics.com (ALPHA)
+	    	             		Misc UI fixes
+	    	             		Connection Manager Improvements
+	    	             		Zoom to Object feature
