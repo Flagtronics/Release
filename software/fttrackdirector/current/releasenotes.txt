@@ -303,4 +303,7 @@ v0.83.14		1/19/2024		Allow user creation of devices
 v0.83.15	    2/2/2024		Changed some dialogs to non persistent style
 	    	             		Create pit & paddock visibility settings
 	    	             		Fix network list sorting bug
-	    	             		Add WRL org & Eagles Canyon Raceway								
+	    	             		Add WRL org & Eagles Canyon Raceway
+v0.83.16	    2/3/2024		CSV Import Fixes
+	    	             		Driver Name Editing Fix
+	    	             		New millisecond timing & scoring update								
