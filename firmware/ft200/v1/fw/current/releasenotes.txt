@@ -182,3 +182,4 @@ v0.6.5.3	1/9/2024	Org specific version (WRL)
 v0.6.5.4	1/26/2024	Fix for edge condition caused by intermittent connection on Standard GPS.
 v0.7.0.0	1/26/2024	HDOP hotfix
 	                 	Decrease time for GPS correction in case of a failed connection
+v0.7.0.1	2/1/2024	Fix USB issue during large file copies						

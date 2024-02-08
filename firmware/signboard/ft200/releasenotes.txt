@@ -148,19 +148,14 @@ v0.6.0.14	3/22/2023	Org specific version
 	                 	Logging improvements
 	                 	No logging when PC connected
 	                 	Check for null terminations
-v0.6.1.1	7/3/2023	Static analysis based improvements
-	                 	Make pit lane speed limits effective in zones 128-143
-	                 	Logging improvements
-	                 	No logging when PC connected
-	                 	Check for null terminations
-	                 	Add offline logging viewer & signboard logging related updates
-	                 	Code 35 override for locals but not individual flags. Code35 because it is the safer of the available conditions.
-	                 	Fix bug in FT200 local zone wireless reporting where FT200 may show a local condition even in an overriden state such as full course red. This matches local to reported wireless condition.
+v0.6.1.1	7/3/2023	Add offline logging viewer & signboard logging related updates
+				Code 35 override for locals but not individual flags. We choose Code35 because it is the safer of the available conditions in all local instances.
+				Fix bug in FT200 local zone wireless reporting where FT200 may show a local condition even in an overriden state such as full course red. This matches local to reported wireless condition.
 v0.6.1.2	7/4/2023	Change blue flag condition to only render on signboard FT200s
-v0.6.1.3	7/14/2023	Change flag reporting in pits back to matching full course condition. It was previously "flag state 16" and unrecognized by TD SW causing the car bubble to appear white.
-v0.6.1.4	7/14/2023	Update Individual flag interaction with Code35 to show invidual flags. Code35 logic update from v0.6.1.3 had Code35 overrode individual flags.
-v0.6.1.5	7/17/2023	Change FT200 to ignore local blue flag and reporting full track condition to match the display state.
-v0.6.1.6	7/17/2023	Added Blue Flag report only when in signboard mode. SB FT200 was ignoring local blue flag and reporting full track condition.
+v0.6.1.3	7/14/2023	Change flag reporting in pits back to matching full course condition, as it was previously "flag state 16" and unrecognized by track director and the car bubble would show white in the pits, regardless of full track condition.
+v0.6.1.4	7/14/2023	Changed individual flag interaction with Code35, as Code35 logic update from v0.6.1.3 had Code35 overriding individual black flag, meatball and pit messages. It is now set so that Code35 overrides locals, but not individual flags.
+v0.6.1.5	7/17/2023	FT200 was reporting blue flag to network when in local blue while the in-car display retained full track condition. FT200 is now completely ignoring local blue flag and reporting full track condition to match the display state.
+v0.6.1.6	7/17/2023	Added Blue Flag report only when in signboard mode. FT200 was completely ignoring local blue flag and reporting full track condition to match the display state in both signboard and incar modes.
 v0.6.1.7	7/24/2023	Org specific version with Code 60 (mph), 40mph pit lane, higher accident thresholds.
 v0.6.1.8	8/2/2023	Org specific version with Code 60 (mph), 40mph pit lane, disabled accident reporting.
 v0.6.2.0	8/3/2023	Major rollup for watchdog / system monitor
@@ -168,7 +163,6 @@ v0.6.2.1	8/21/2023	Add HDOP requirement for GPS
 v0.6.2.4	9/4/2023	Fix edge condition with high speed logging in multiple rollover or bouncing crash events
 v0.6.4.4	9/5/2023	Updates for v0.9.5 HW & new GPS hardware
 v0.6.4.5	9/6/2023	Org specific version
-v0.6.4.6	9/6/2023	Org specific version
 v0.6.4.6	9/6/2023	Org specific version
 v0.6.4.7	9/19/2023	Autoclears an incident condition if a car continues racing.
 v0.6.4.8	9/19/2023	Org specific version
@@ -179,3 +173,13 @@ v0.6.4.12	11/2/2023	Change watchdog from timer, remove 5 reset limit per boot cy
 v0.6.4.13	11/2/2023	Org specific version
 v0.6.4.14	11/2/2023	Org specific version
 v0.6.4.15	11/27/2023	Fixed signboard heartbeat delay bug, when many flag changes happen.
+v0.6.5.0	11/28/2023	Change to show leading zeroes of DID when clicking both front buttons
+	                 	Change heartbeat timer increment to restart the counter rather than increment the timer forward on flag changes. This solves a bug where rapid flag changes could cause a long heartbeat interval.
+	                 	Remove WDT limit of 5 per boot cycle
+v0.6.5.1	12/15/2023	Additional checking on GPS fix to improve GPS error detection on Enhanced & Pro GPS
+v0.6.5.2	12/22/2023	Changed to sfLapTimeMs lap time output						
+v0.6.5.3	1/9/2024	Org specific version (WRL)
+v0.6.5.4	1/26/2024	Fix for edge condition caused by intermittent connection on Standard GPS.
+v0.7.0.0	1/26/2024	HDOP hotfix
+	                 	Decrease time for GPS correction in case of a failed connection
+v0.7.0.1	2/1/2024	Fix USB issue during large file copies						
