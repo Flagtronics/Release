@@ -313,4 +313,6 @@ v0.83.17		2/8/2024		Remove Signboards from Active Cars on Track
 	    	             		Add sound options to local & full track flag issuance
 	    	             		Change lap completion sound
 v0.83.18		2/8/2024		Enable sounds for full track, local, & lap completion by default
-	    	             		Fix bug that could cause incorrect reporting of flag state when software as initially started and no commands yet issued				
+	    	             		Fix bug that could cause incorrect reporting of flag state when software as initially started and no commands yet issued		
+v0.83.19		2/8/2024		Updated release publish test
+v0.83.20		2/8/2024		Improved publication scripting
