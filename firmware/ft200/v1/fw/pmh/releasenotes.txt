@@ -164,3 +164,25 @@ v0.6.2.4	9/4/2023	Fix edge condition with high speed logging in multiple rollove
 v0.6.4.4	9/5/2023	Updates for v0.9.5 HW & new GPS hardware
 v0.6.4.5	9/6/2023	Org specific version
 v0.6.4.6	9/6/2023	Org specific version
+v0.6.4.6	9/6/2023	Org specific version
+v0.6.4.7	9/19/2023	Autoclears an incident condition if a car continues racing.
+v0.6.4.8	9/19/2023	Org specific version
+v0.6.4.9	9/25/2023	Org specific version
+v0.6.4.10	9/25/2023	Org specific version
+v0.6.4.11	9/26/2023	Org specific version
+v0.6.4.12	11/2/2023	Change watchdog from timer, remove 5 reset limit per boot cycle
+v0.6.4.13	11/2/2023	Org specific version (Trans Am / IGT)
+v0.6.4.14	11/2/2023	Org specific version (Trans AM / IGT, accident disabled)
+v0.6.4.15	11/27/2023	Fixed signboard heartbeat delay bug, when many flag changes happen.
+v0.6.5.0	11/28/2023	Change to show leading zeroes of DID when clicking both front buttons
+	                 	Change heartbeat timer increment to restart the counter rather than increment the timer forward on flag changes. This solves a bug where rapid flag changes could cause a long heartbeat interval.
+	                 	Remove WDT limit of 5 per boot cycle
+v0.6.5.1	12/15/2023	Additional checking on GPS fix to improve GPS error detection on Enhanced & Pro GPS
+v0.6.5.2	12/22/2023	Changed to sfLapTimeMs lap time output
+v0.6.5.3	1/9/2024	Org specific version (WRL)
+v0.6.5.4	1/26/2024	Fix for edge condition caused by intermittent connection on Standard GPS.
+v0.7.0.0	1/26/2024	HDOP hotfix
+	                 	Decrease time for GPS correction in case of a failed connection
+v0.7.0.1	2/1/2024	Fix USB issue during large file copies
+v0.7.0.2	2/9/2024	Org specific version
+v0.7.0.3	2/9/2024	Org specific version
