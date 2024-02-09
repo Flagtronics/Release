@@ -300,15 +300,17 @@ v0.83.14		1/19/2024		Allow user creation of devices
 	    	             		Misc UI fixes
 	    	             		Connection Manager Improvements
 	    	             		Zoom to Object feature
-v0.83.15	    2/2/2024		Changed some dialogs to non persistent style
+v0.83.15		2/2/2024		Changed some dialogs to non persistent style
 	    	             		Create pit & paddock visibility settings
 	    	             		Fix network list sorting bug
 	    	             		Add WRL org & Eagles Canyon Raceway
-v0.83.16	    2/3/2024		CSV Import Fixes
+v0.83.16		2/3/2024		CSV Import Fixes
 	    	             		Driver Name Editing Fix
 	    	             		New millisecond timing & scoring update
-v0.83.17	    2/8/2024		Remove Signboards from Active Cars on Track
+v0.83.17		2/8/2024		Remove Signboards from Active Cars on Track
 	    	             		Change battery to SOC from % & voltage
 	    	             		Add refresh button for pulling data from tracks.flagtronics.com real-time to allow immediate changes
 	    	             		Add sound options to local & full track flag issuance
-	    	             		Change lap completion sound						
+	    	             		Change lap completion sound
+v0.83.18		2/8/2024		Enable sounds for full track, local, & lap completion by default
+	    	             		Fix bug that could cause incorrect reporting of flag state when software as initially started and no commands yet issued				
