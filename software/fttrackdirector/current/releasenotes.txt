@@ -321,3 +321,4 @@ v0.83.21		2/13/2024		Do not show 0 speed warnings in pit/paddock by default
 	    	             		Add unenforced pit speed limit
 	    	             		Add paddock speed limit
 	    	             		Eliminate Login Success message for tracks.flagtronics.com due to redundancy / obviousness
+v0.83.22	    2/14/2024		Installer updates
