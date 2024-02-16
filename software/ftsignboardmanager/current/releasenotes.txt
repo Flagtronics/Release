@@ -1,5 +1,22 @@
 ************************************************************************************************************************
 Version:
+    1.5.0.0
+
+Date:
+    2024 Feb 16
+
+Fixes:
+    + The software uninstaller was not signed. That caused a warning User Account Control message while uninstalling
+      the software.
+    + Other minor bug fixes.
+
+Changes:
+    1) Support conditions for parameter ranges
+    2) Minor improvements on the UI.
+
+
+************************************************************************************************************************
+Version:
     1.4.0.1
 
 Date:
