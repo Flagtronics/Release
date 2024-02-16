@@ -166,3 +166,5 @@ v1.9.0.1    14/12/2023  The software support both x64 and x86 modes, x64 mode is
                         Added issue report mechanism.
                         Revised the notice text reminding the user to save and restart FT200 to apply changes.
 v1.9.0.2    16/12/2023  Improved and fixed bugs of Inno Setup script
+v1.10.0.0   16/02/2024  Allow an andmin user to format flash storage of FT200 in Device Information screen. This is only available when the device is running FT200 firmware v0.7.0.13 or higher.
+                        Fixed: uninstaller was not signed. That caused a warning User Account Control message for unknown publisher while uninstalling the software.
