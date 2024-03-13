@@ -332,3 +332,10 @@ v0.83.25		3/2/2024		Allow zone overlay when trackmap is sourced from tracks.flag
 	    	             		Immediate saving option for user editable fields
 	    	             		More datastream parsing improvements
 	    	             		Fix visibility for pit/paddock speed tooltips
+v0.83.26		3/2/2024		Installer Fix
+	    	             		NRE fix for missing image reference
+v0.83.27		3/13/2024		Fix Flagstand export null values for DisplayName. Now uses Stand # if DisplayName is null in DB.
+	    	             		Automatically remove non-compliant characters from connection manager IP/FQDN entry. 
+	    	             		Map Lock Feature
+	    	             		Update Language for network sleep state
+	    	             		Fix for car text showing up twice under car icons
