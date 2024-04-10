@@ -339,3 +339,26 @@ v0.83.27		3/13/2024		Fix Flagstand export null values for DisplayName. Now uses 
 	    	             		Map Lock Feature
 	    	             		Update Language for network sleep state
 	    	             		Fix for car text showing up twice under car icons
+v0.83.27		3/13/2024		Fix Flagstand export null values for DisplayName. Now uses Stand # if DisplayName is null in DB.
+	    	             		Automatically remove non-compliant characters from connection manager IP/FQDN entry. 
+	    	             		Map Lock Feature
+	    	             		Update Language for network sleep state
+	    	             		Fix for car text showing up twice under car icons
+v0.83.28		3/27/2024		Fix crash event if image is corrupt or missing on Map
+	    	             		Improve logging of outdated fw versions. Partial fix.
+	    	             		Fix aggressive warning messages in a multi-TrackDirector environment
+	    	             		Fix crash if CSV or JSON file is locked for editing by another program
+	    	             		Improve connection manager remark updates
+	    	             		Improve port switching for local TCP connections. Partial fix.
+	    	             		Allow user to click on write checkmark and partial automate switching process
+	    	             		Fix URI update bug in Connection Manager
+	    	             		Improve reporting & logging from multiple track directors
+	    	             		How many cars turned on during the day counter
+	    	             		Changed the timer mechanism for old firmware notifications
+	    	             		Add instance detection and warn user if multiple instances
+v0.83.29		4/10/2024		Improvements to Connection Manager
+	    	             		Improvements to internal data handling 
+	    	             		Implement detailed message timestamping
+	    	             		Add DriverID logging
+	    	             		Improve unknown response filtering
+	    	             		Ask user to update if on older Track Director firmware
