@@ -171,3 +171,5 @@ v1.10.0.0   16/02/2024  Allow an andmin user to format flash storage of FT200 in
 v1.11.0.3   23/04/2024  Updating firmware from a version older than v0.7.0.13 to a version equal to or higher than that, the device file system will be backed-up, reset to default, then restored.
                         Removed compression when updating track-side and ESP32 firmware over Ethernet, it made no difference but could cause DLL incompatibility.
                         Improved the UI formatting flash of FT200 ("Format flash storage" button in Device Information page)
+v1.12.0.0   25/04/2024  Added support for Broadcaster with Ethernet capability.
+                        Changed DID of TrackDirector-Broadcaster Hybrid from "7xxx" to "13xxx"
