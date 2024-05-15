@@ -363,4 +363,7 @@ v0.83.29		4/10/2024		Improvements to Connection Manager
 	    	             		Improve unknown response filtering
 	    	             		Ask user to update if on older Track Director firmware
 v0.83.30		4/27/2024		Data response decoder improvements
-	    	             		DriverID Zone information & driver information update								
+	    	             		DriverID Zone information & driver information update	
+v0.83.31		5/8/2024		Improved device detection and communication
+	    	             		Many dependency updates
+	    	             		Allow connection manager settings to persist on upgrade								
