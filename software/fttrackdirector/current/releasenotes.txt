@@ -366,4 +366,9 @@ v0.83.30		4/27/2024		Data response decoder improvements
 	    	             		DriverID Zone information & driver information update	
 v0.83.31		5/8/2024		Improved device detection and communication
 	    	             		Many dependency updates
-	    	             		Allow connection manager settings to persist on upgrade								
+	    	             		Allow connection manager settings to persist on upgrade
+v0.83.32		6/4/2024		Improved localization determination for network devices
+	    	             		Saving & Loading of Connection information
+	    	             		Make network status filter persistent between sessions
+	    	             		Make the last quick selection make in show race results for time period persistent between sessions
+	    	             		Change read only device network heartbeat interval to new hardware specifications								
