@@ -182,4 +182,28 @@ v0.6.5.3	1/9/2024	Org specific version (WRL)
 v0.6.5.4	1/26/2024	Fix for edge condition caused by intermittent connection on Standard GPS.
 v0.7.0.0	1/26/2024	HDOP hotfix
 	                 	Decrease time for GPS correction in case of a failed connection
-v0.7.0.1	2/1/2024	Fix USB issue during large file copies						
+v0.7.0.1	2/1/2024	Fix USB issue during large file copies
+v0.7.0.2	2/9/2024	Org specific version
+v0.7.0.3	2/9/2024	Org specific version
+v0.7.0.4	3/3/2024	Signboard battery message rate incrase to 60s from 20m
+	                 	Fix missing Global ISR enable
+v0.7.0.5	3/13/2024	Accident system rework to show accidents below 15mph for 5s
+v0.7.0.6	3/22/2024	Org specific version
+v0.7.0.7	3/22/2024	Org specific version
+v0.7.0.8	4/5/2024	Add testing routines
+	                 	Add crash detection improvements
+	                 	DriverID debut
+	                 	Add CAN & general debugging tools to UART
+v0.7.0.8	4/22/2024	Increase accident filtering threshold
+	                 	Update some dependencies
+v0.7.0.13	5/31/2024	Major update with gating requirement related to new flash order
+	                 	Update build tools and checks in CI/CD pipeline
+	                 	Add power on indication state for blank flag. Moving blue dots at bottom of LED matrix.
+	                 	Resolve CAN DLC =0-7 issue in standard receive message. Previously only DLC = 8 was effective.
+	                 	Increase max file count for trackmaps to 999
+	                 	Create a file with the serial # / DID on the root USB mountable drive for customers
+	                 	Move NVM & file partitions to improve future upgradeability
+	                 	Update chip erase command to better handle watchdog
+	                 	Add support for a complete flash erase command
+	                 	Add screen brightness to logging
+	                 	Fix logging rotation bug in Signboard mode that could cause signboard resets with full log folders					
