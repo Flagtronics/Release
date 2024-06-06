@@ -10,3 +10,4 @@ v0.4.6.4	09/23/2021	Upate bootROM & apploader version reporting to firmware
 v0.4.6.5	10/25/2022	Pull display low in low level bootrom to prevent bootup sparkling. Only effects v0.3.8 hardware below BR v0.3.2.1.
 v0.4.7.0	05/29/2023	Add CRC check on flash program from apploader, and inhibit booting on fail.
 v0.4.7.1	06/04/2024	Update header metadata for improved updates
+v0.4.7.2	06/06/2024	Included DID in readme file
