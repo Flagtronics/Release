@@ -1,5 +1,22 @@
 ************************************************************************************************************************
 Version:
+    1.6.0.2
+
+Date:
+    2024 Jun 11
+
+Fixes:
+    + Fixed issues detected by Codacy.
+    + Fixed bug which caused pressing Enter to apply setting value in Device Setup screen not to work.
+
+Changes:
+    + Added Custom Pit Entry Flag with blank display.
+    + Prevent the user to input invalid hardware version of Signboard panel in Device Setup screen.
+    + Renamed "Pit Entry" and "Pit Entry Closed" flags to "Pit Open" and "Pit Closed", respectively.
+
+
+************************************************************************************************************************
+Version:
     1.5.1.0
 
 Date:
