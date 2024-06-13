@@ -173,3 +173,23 @@ v1.11.0.3   23/04/2024  Updating firmware from a version older than v0.7.0.13 to
                         Improved the UI formatting flash of FT200 ("Format flash storage" button in Device Information page)
 v1.12.0.0   25/04/2024  Added support for Broadcaster with Ethernet capability.
                         Changed DID of TrackDirector-Broadcaster Hybrid from "7xxx" to "13xxx"
+v1.13.0.14  06/06/2024  Added button opening Web interface of Ethernet track-side device in Device Info page.
+                        Support standalone ESP32 (in case ATSAM is not responsive over serial interface with ESP32).
+                        Fixed bug causing redundant TCP/IP sockets.
+                        Fixed bug causing duplicate devices in Device Enumeration page.
+                        The Ethernet communication between FDM and Ethernet track-side devices is now more resilient to poor network connection.
+                        Gracefully handle many errors while updating firmware for 4CH TD/BC/TDBC Ethernet. The 32-byte block containing firmware entry point is programmed last.
+                        Prevent firmware updates for 4CH TD/BC/TDBC Ethernet with Bootloader below v0.0.0.7.
+                        For Ethernet firmware update, change firmware restriction for 4CH BC from v0.0.5.0 to v0.0.2.15.
+                        Bump NLog from 5.2.7 to 5.3.2 and Octokit from 9.0.0 to 11.0.1.
+                        When connectivity of the currently selected device is lost, the software won't automatically select another device any more.
+                        Support updating to TDBC 4CH M4 over USB.
+                        Allow an admin user to program an arbitrary firmware onto ATSAME51.
+                        Remove support of non-encrypted track-side firmware.
+                        Changed reference of cloud track-side firmware from "Flagtronics-Bootloader-uf2\FW\Encrypted\" to "Flagtronics-Trackside-PIO\binaries\"
+                        Allow an FT200 with no "readme.txt" to be recovered
+                        Revise FT200 scanning method to support detection FT200s without "readme.txt".
+                        FT200 firmware is now validated using its metadata.
+v1.13.1.0   13/06/2024  Fixed: FT200 backup process could fail when the software is run by various Windows users.
+                        Allow the user to restore FT200 when "readme.txt" file is empty, or any configuration files (json) are missing.
+                        Increased timeout waiting for FT200 to reboot and start new firmware.
