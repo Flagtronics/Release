@@ -371,4 +371,12 @@ v0.83.32		6/4/2024		Improved localization determination for network devices
 	    	             		Saving & Loading of Connection information
 	    	             		Make network status filter persistent between sessions
 	    	             		Make the last quick selection make in show race results for time period persistent between sessions
-	    	             		Change read only device network heartbeat interval to new hardware specifications								
+	    	             		Change read only device network heartbeat interval to new hardware specifications
+v0.83.33		6/14/2024		Add Send Logs feature in File Menu
+	    	             		Update dependencies
+	    	             		Add DB enumeration guards
+	    	             		Remove obsolete DB calls
+	    	             		Improve datastream version & response handling
+	    	             		Add new device detection and DID handling
+	    	             		Allow adding or removing elements in the top ribbon / menu bar
+	    	             		Update heartbeat methodology								
