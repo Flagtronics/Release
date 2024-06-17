@@ -193,3 +193,6 @@ v1.13.0.14  06/06/2024  Added button opening Web interface of Ethernet track-sid
 v1.13.1.0   13/06/2024  Fixed: FT200 backup process could fail when the software is run by various Windows users.
                         Allow the user to restore FT200 when "readme.txt" file is empty, or any configuration files (json) are missing.
                         Increased timeout waiting for FT200 to reboot and start new firmware.
+v1.14.0.0   17/06/2024  Support new Device ID scheme with 9 digits.
+                        Support Blank Full Track Controller Handheld M0.
+                        Offer SOC chart with bars along with battery voltage for track-side devices.
