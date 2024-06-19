@@ -379,4 +379,7 @@ v0.83.33		6/14/2024		Add Send Logs feature in File Menu
 	    	             		Improve datastream version & response handling
 	    	             		Add new device detection and DID handling
 	    	             		Allow adding or removing elements in the top ribbon / menu bar
-	    	             		Update heartbeat methodology								
+	    	             		Update heartbeat methodology
+v0.83.34		6/14/2024		Patch port localization behavior that was always null
+	    	             		Add layout selections bar
+	    	             		Change required path from HKCU to HKLM
