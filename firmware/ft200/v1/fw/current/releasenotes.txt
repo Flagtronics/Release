@@ -206,4 +206,6 @@ v0.7.0.13	5/31/2024	Major update with gating requirement related to new flash or
 	                 	Update chip erase command to better handle watchdog
 	                 	Add support for a complete flash erase command
 	                 	Add screen brightness to logging
-	                 	Fix logging rotation bug in Signboard mode that could cause signboard resets with full log folders					
+	                 	Fix logging rotation bug in Signboard mode that could cause signboard resets with full log folders
+v0.7.0.14	6/20/2024	Fix tri-color bug when at brightness level 0
+	                 	Change blank state power on indication color from blue to cyan to avoid confusion and modify graphic											
