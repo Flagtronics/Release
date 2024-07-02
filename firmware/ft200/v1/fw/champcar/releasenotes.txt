@@ -1,0 +1,211 @@
+Version	Date	Notes
+v0.4.7.4	08/02/2021	Initial Release Version
+v0.4.7.5	08/10/2021	Show release # in apploader & bootloader. Updated debris response. 
+v0.4.7.6	08/11/2021	Change Black Flag (BF) text from red to white. Other improvements in BF flag routine.
+v0.4.7.7	08/13/2021	User programmable light sensor improvements including boot up race condition.
+v0.4.7.8	08/15/2021	"R" Font Update & LED thermal limit routine implementation for longer LED life.
+v0.4.7.9	08/27/2021	Track Map updates OTA (over the air) implemented. Major logging improvements.
+v0.4.7.10	09/03/2021	Log rotation update, CAN Bus integration updates
+v0.4.7.11	09/08/2021	Increased maximum brightness and slowed light sensor response. Possible wireless fault issue fix, function without track map (full track only), GPS timeout re-initiation fix.
+v0.4.7.12	09/23/2021	Improved resilience to floating or backfed USB source with car off.
+v0.4.8.0	09/23/2021	Changes to local flagging to accomodate more multiple flag states per flag station.
+v0.4.8.1	0/9/24/2021	Update frequency change, improved version tracking, TrackMap CRC update, new local combination flags.
+v0.4.8.2	9/27/2021	new local combination flags, improved message efficiency, GPS stop & start routines for reduced power during low power state, red flag override, several bug fixes, new meatball animation, local flag offsets. 
+v0.4.8.3	9/27/2021	Bug fix for new local flagging com, lighting curve update, dimming reduction.
+v0.4.8.4	9/29/2021	Improved TrackMap update flexibility, solve performance bug that effected lighting changes & other routines, local flag improvements & lighting fixes, lighting response speed increase.
+v0.4.8.5	9/30/2021	GPS reinit fix, older bootrom version support, FS improvements, bug fixes.
+v0.4.8.6	9/30/2021	Production Version! GPS reinit improvement. 
+v0.4.8.7	10/22/2021	Local flag clear updates.
+v0.4.8.8	11/17/2021	Accelerometer bug fixes, GPS improvements, Inverted display option, brightness improvements, code efficiency updates, overtemp condition updates, animation changes, accident triggers, battery only power mode option for rental units.
+v0.4.8.9	-	Customer Demo
+v0.4.8.10	-	2021 PRI Demo
+v0.4.8.11	1/19/2022	GPS simulation & logger updates
+	                 	brightness fix
+	                 	GPS re-initialization fix
+	                 	hardware revision reporting fix
+	                 	enable stopped car detection for automatic yellow feature
+	                 	enable GPS failure detection detection to disable automatic yellows & accident flagging
+	                 	improved low battery control
+	                 	Accelerometer bug fixes, Encryption updates, 
+v0.4.8.12	3/15/2022	Wireless errata fixes
+	                 	Encryption overflow condition fix
+	                 	Enycryption enable flag update
+v0.4.8.13	3/15/2022	Encryption padding fix
+v0.5.0.0	4/1/2022	Multi-hardware handling of prior v0.1.7.0/0.2.0.0a & v0.3.8.0 next generation hardware in single firmware
+	                 	Add handling for front light sensor in addition to rear light sensor
+	                 	Add improved battery management chip
+	                 	Prevent poor data transmission if GPS is not responsive
+	                 	Zone validity test updates
+	                 	Change multi-color COM to blue SIG message to better indicate that there is no signal
+	                 	Change SIG message to CMD to indicate signal is present but no track state has been commanded
+v0.5.0.1	4/26/2022	Substantial updates to low voltage write protection routines for USB drive
+	                 	Display initialization update to avoid unicorn sparkles christmas tree mode under specific power cycle conditions
+	                 	Add hysteresis on external power supplies, USB & 12V
+	                 	Add bad power supply message when USB power drops below threshold
+	                 	Speed up low voltage detection and shut down
+	                 	Add timestamp to logs
+	                 	Change log output format
+	                 	Improve multi-encryption mode handling
+	                 	Move full GPSsim data load out of RAM
+v0.5.0.2	4/26/2022	Acelerometer errata fix
+	                 	Change USB drive init to later in boot process
+	                 	Acelerometer  boot up trigger fix
+	                 	Accident trigger higher number of samples required to trigger 
+v0.5.0.3	4/26/2022	USB & 12V minimum power on trigger reduction
+	                 	Low battery condition improvement to better correct for hysteresis
+v0.5.0.4	4/27/2022	Battery only power on value reduction to 3.8V
+v0.5.0.5	4/27/2022	Pit Lane Speed Warning continuing on track fix
+	                 	Accident Trigger set to 20G with higher number of samples required to trigger
+v0.5.0.6	4/30/2022	CAN Base / Default Address update
+	                 	Solve CAN settings read error that prevented settings to maintain non-default state
+	                 	Fix charge circuit on v0.3.8.0 hardware
+	                 	Accident trigger higher number of samples required to trigger 
+v0.5.0.7	5/4/2022	Disable accident detection for additional tuning in the future
+v0.5.0.8	6/2/2022	Fix random number generator seed
+	                 	Unicast implementation
+	                 	Code cleanup
+	                 	Additional low voltage & write protections
+	                 	Add non-volatile storage for key variables
+	                 	Cleanup CAN code
+	                 	Software triggered power cycle capability
+	                 	Local GPS simulation mode
+	                 	Recovery mode
+v0.5.0.9	6/28/2022	Remove thermal overtemp
+v0.5.0.10	                 	Add time to looging output
+	                 	Re-enable thermal overtemp mode with re-work to prevent function loss
+	                 	Log buffer change
+	                 	Log incrementation change
+	                 	Default brightness setting to 3 (high with light sensor compensation)
+	                 	Improve log write behavior
+v0.5.0.11	7/14/2022	Code cleanup
+v0.5.0.12	7/14/2022	Re-enable crash sensor
+	                 	Disable vertical axis in crash sensor
+v0.5.0.13	8/2/2022	Update stalled / stopped behavior to match current software use
+	                 	Change automatic yellow to sanctioning body / org variable
+	                 	Fix GPS simulation routine in some scenarios
+	                 	Hold on USB startup until file system is updated
+v0.5.0.14	9/18/2022	Signboard mode improvesments for DID announcement correlated to zone
+	                 	Light Curve fixes
+	                 	Default light curve on initial programming is set to 3
+	                 	CAN RX message filter fix
+	                 	Logging buffer changes for crash handling & multiple logging improvements to v3 logging standard
+	                 	Crash sensor update rate change to solve intermittent high data rate errata
+	                 	Add timestamps to log dump header
+v0.5.0.15	10/3/2022	Prevent crash logging when logging is prevented such as in a PC connected state
+	                 	Rescale dynamic G sensor
+	                 	Improvements to log system
+	                 	I2C bus improvements
+	                 	Code Cleanup
+v0.5.0.16	10/23/2022	Quick double press for DID announcement on screen (only last 3 digits)
+	                 	No auto-dim in signboard mode
+v0.5.0.17	10/25/2022	Prevent FT200 from continuous screen cycling in the case of less than 5V on the 12V power supply. 
+	                 	In such a case, a user will need to press the top button, b1, to restart the unit once reliable power is restored.
+v0.5.0.18	10/26/2022	Enable accident detection at 15G while in motion on track
+v0.5.1.0	10/30/2022	Update version number to comply with limit of 15 per version field.
+v0.5.1.1	11/2/2022	Enable accident detection at 25G while in motion on track
+v0.5.1.2	11/11/2022	Separate Comms ID from Serial #
+	                 	Provide Corner station zone information in readme regardless of corner station status
+	                 	Double the number of vertices allowed per zone in track maps from 32 to 64
+v0.5.1.3	11/20/2022	Improve boot up brightness handling
+	                 	Improve low power USB protection (shuts off at 4.1V until customer turns it back on or power is removed)
+	                 	Blank flag support
+v0.5.1.4	11/21/2022	Improved signboard mode filtering to prevent accidental signboard mode entry. CAN frame < 0A 0B 0C 0D 0E 0F FF 10 > required at 0x600 to put FT200 into signboard mode.
+v0.5.1.5	1/17/2023	Code 35 Flag Update
+	                 	2Hz flash "35" at 35mph or less
+	                 	2Hz flash "SLO" at 36-39mph
+	                 	4Hz flash "SLO" at 40mph+
+	                 	Key update. This breaks communication with hardware that is not updated for the 2023 season! FT200s will show SIG or COM
+	                 	Add new 2023 messages
+	                 	Update to 64 corner stand capability
+	                 	Add freeze the field message structure
+	                 	Update accelerometer
+	                 	TxDone message logging capability added
+	                 	Automatic power off changed from 30min to 15min. This will later become org specific.
+v0.6.0.0	1/18/2023	2023 release candidate
+v0.6.0.1	1/24/2023	Fix memory overflow edge condition with 64 flag corner routine
+v0.6.0.2	2/6/2023	Fix overflow for zone look up in pits(128)
+v0.6.0.3	2/9/2023	Signboard mode ignores trackmap commands
+	                 	Code35 flashing / message change.
+v0.6.0.4	2/9/2023	Reduced Heartbeat rate when in the pits (12s)
+v0.6.0.5	3/9/2023	Reduced Heartbeat in Signboard mode (10s) except when flag state changes
+	                 	Reduced Logging in Signboard mode
+	                 	Change CAN message to debug instead of Warning
+	                 	Add zone information to Signboard CAN datastream
+v0.6.0.6	3/11/2023	Fix LightCurve.json data corruption issue due incorrect file append
+	                 	Increased glitch filter to reduce false positive accident incidents
+v0.6.0.7	3/15/2023	Fix race condition in trackmap update system
+	                 	TrackMap Code refactor
+v0.6.0.8	3/16/2023	Track limit increased from 64 to 255. Rework to handle more scheduled.
+	                 	Improve signboard identification message filtering to prevent 0x0B / 11 as a voltage value of 6.1V
+v0.6.0.9	3/16/2023	Org specific version
+v0.6.0.10	3/19/2023	Disable CAN autoretransmission
+v0.6.0.11	3/22/2023	Low battery power shutdown improvements
+v0.6.0.12	3/22/2023	Org specific version
+v0.6.0.13	3/22/2023	Org specific version
+v0.6.0.14	3/22/2023	Org specific version
+	                 	Statis analysis based improvements
+	                 	Make pit lane speed limits effective in zones 128-143
+	                 	Logging improvements
+	                 	No logging when PC connected
+	                 	Check for null terminations
+v0.6.1.1	7/3/2023	Add offline logging viewer & signboard logging related updates
+				Code 35 override for locals but not individual flags. We choose Code35 because it is the safer of the available conditions in all local instances.
+				Fix bug in FT200 local zone wireless reporting where FT200 may show a local condition even in an overriden state such as full course red. This matches local to reported wireless condition.
+v0.6.1.2	7/4/2023	Change blue flag condition to only render on signboard FT200s
+v0.6.1.3	7/14/2023	Change flag reporting in pits back to matching full course condition, as it was previously "flag state 16" and unrecognized by track director and the car bubble would show white in the pits, regardless of full track condition.
+v0.6.1.4	7/14/2023	Changed individual flag interaction with Code35, as Code35 logic update from v0.6.1.3 had Code35 overriding individual black flag, meatball and pit messages. It is now set so that Code35 overrides locals, but not individual flags.
+v0.6.1.5	7/17/2023	FT200 was reporting blue flag to network when in local blue while the in-car display retained full track condition. FT200 is now completely ignoring local blue flag and reporting full track condition to match the display state.
+v0.6.1.6	7/17/2023	Added Blue Flag report only when in signboard mode. FT200 was completely ignoring local blue flag and reporting full track condition to match the display state in both signboard and incar modes.
+v0.6.1.7	7/24/2023	Org specific version with Code 60 (mph), 40mph pit lane, higher accident thresholds.
+v0.6.1.8	8/2/2023	Org specific version with Code 60 (mph), 40mph pit lane, disabled accident reporting.
+v0.6.2.0	8/3/2023	Major rollup for watchdog / system monitor
+v0.6.2.1	8/21/2023	Add HDOP requirement for GPS
+v0.6.2.4	9/4/2023	Fix edge condition with high speed logging in multiple rollover or bouncing crash events
+v0.6.4.4	9/5/2023	Updates for v0.9.5 HW & new GPS hardware
+v0.6.4.5	9/6/2023	Org specific version
+v0.6.4.6	9/6/2023	Org specific version
+v0.6.4.7	9/19/2023	Autoclears an incident condition if a car continues racing.
+v0.6.4.8	9/19/2023	Org specific version
+v0.6.4.9	9/25/2023	Org specific version
+v0.6.4.10	9/25/2023	Org specific version
+v0.6.4.11	9/26/2023	Org specific version
+v0.6.4.12	11/2/2023	Change watchdog from timer, remove 5 reset limit per boot cycle
+v0.6.4.13	11/2/2023	Org specific version
+v0.6.4.14	11/2/2023	Org specific version
+v0.6.4.15	11/27/2023	Fixed signboard heartbeat delay bug, when many flag changes happen.
+v0.6.5.0	11/28/2023	Change to show leading zeroes of DID when clicking both front buttons
+	                 	Change heartbeat timer increment to restart the counter rather than increment the timer forward on flag changes. This solves a bug where rapid flag changes could cause a long heartbeat interval.
+	                 	Remove WDT limit of 5 per boot cycle
+v0.6.5.1	12/15/2023	Additional checking on GPS fix to improve GPS error detection on Enhanced & Pro GPS
+v0.6.5.2	12/22/2023	Changed to sfLapTimeMs lap time output						
+v0.6.5.3	1/9/2024	Org specific version (WRL)
+v0.6.5.4	1/26/2024	Fix for edge condition caused by intermittent connection on Standard GPS.
+v0.7.0.0	1/26/2024	HDOP hotfix
+	                 	Decrease time for GPS correction in case of a failed connection
+v0.7.0.1	2/1/2024	Fix USB issue during large file copies
+v0.7.0.2	2/9/2024	Org specific version
+v0.7.0.3	2/9/2024	Org specific version
+v0.7.0.4	3/3/2024	Signboard battery message rate incrase to 60s from 20m
+	                 	Fix missing Global ISR enable
+v0.7.0.5	3/13/2024	Accident system rework to show accidents below 15mph for 5s
+v0.7.0.6	3/22/2024	Org specific version
+v0.7.0.7	3/22/2024	Org specific version
+v0.7.0.8	4/5/2024	Add testing routines
+	                 	Add crash detection improvements
+	                 	DriverID debut
+	                 	Add CAN & general debugging tools to UART
+v0.7.0.8	4/22/2024	Increase accident filtering threshold
+	                 	Update some dependencies
+v0.7.0.13	5/31/2024	Major update with gating requirement related to new flash order
+	                 	Update build tools and checks in CI/CD pipeline
+	                 	Add power on indication state for blank flag. Moving blue dots at bottom of LED matrix.
+	                 	Resolve CAN DLC =0-7 issue in standard receive message. Previously only DLC = 8 was effective.
+	                 	Increase max file count for trackmaps to 999
+	                 	Create a file with the serial # / DID on the root USB mountable drive for customers
+	                 	Move NVM & file partitions to improve future upgradeability
+	                 	Update chip erase command to better handle watchdog
+	                 	Add support for a complete flash erase command
+	                 	Add screen brightness to logging
+	                 	Fix logging rotation bug in Signboard mode that could cause signboard resets with full log folders
+v0.7.0.14	6/20/2024	Fix tri-color bug when at brightness level 0
+	                 	Change blank state power on indication color from blue to cyan to avoid confusion and modify graphic											
