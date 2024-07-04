@@ -193,6 +193,12 @@ v1.13.0.14  06/06/2024  Added button opening Web interface of Ethernet track-sid
 v1.13.1.0   13/06/2024  Fixed: FT200 backup process could fail when the software is run by various Windows users.
                         Allow the user to restore FT200 when "readme.txt" file is empty, or any configuration files (json) are missing.
                         Increased timeout waiting for FT200 to reboot and start new firmware.
-v1.14.0.0   17/06/2024  Support new Device ID scheme with 9 digits.
+v1.14.0.1   17/06/2024  Support new Device ID scheme with 9 digits.
                         Support Blank Full Track Controller Handheld M0.
                         Offer SOC chart with bars along with battery voltage for track-side devices.
+v1.14.1.0   20/06/2024  Fixed: Checking for OTA firmware update of track-side device may fail.
+                        Fixed: OTA update could cause confusion when new firmware is available for both ATSAM and ESP32 at the same time.
+v1.15.0.0   04/07/2024  Fixed: Restarting progress of FT200 was not indicated correctly
+                        Support firmware variance with organization ID & name.
+                        Support read-only Track Director Broadcaster hybrid M4.
+                        Add description for Blank Full Track Controller Handheld M0 in Device Information page.
