@@ -1,3 +1,8 @@
+v0.83.38		7/24/2024		New time localization settings & display options
+	    	             		Resolve speed tooltip bug caused by new Advanced Green Speed thresholds
+	    	             		Improve RaceResults UI & functionality
+	    	             		Improve Team based sorting in Network Status View
+	    	             		Add new read only device recognition
 v0.83.37		7/11/2024		Advanced Code 35 / Purple settings based on speed
 								New volume controls
 								New text & flag icon scaling
