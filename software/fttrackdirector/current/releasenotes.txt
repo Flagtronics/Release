@@ -1,3 +1,6 @@
+Version	    	Date     		Notes
+v0.83.39		7/27/2024		Single line Copy & Paste feature from log boxes
+	    	             		Import & Export options for layout configuration
 v0.83.38		7/24/2024		New time localization settings & display options
 	    	             		Resolve speed tooltip bug caused by new Advanced Green Speed thresholds
 	    	             		Improve RaceResults UI & functionality
