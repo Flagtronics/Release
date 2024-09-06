@@ -207,3 +207,6 @@ v1.16.0.x   13/08/2024  Deleted cached TrackmapOTA firmware which doesn't have a
                         Support battery SOC in shorter version of "?" response.
                         Revised UI of FT200 firmware update and added more handling for FT200 org selection.
                         Support realtime logging version 6 of FT200.
+v1.17.0.x   22/08/2024  Support communication over USB-CDC port of the new FT200 firmware.
+                        For Admin user, display port name of USB serial port (if available) in Device Information page of FT200 device.
+                        Display driver ID (if detected) in Device Information page.
