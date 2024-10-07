@@ -1,4 +1,12 @@
 Version	    	Date     		Notes
+v0.83.41		10/7/2024		Add 0.25x zoom to mouse scroll wheel
+	    	             		Minor map workflow fixes
+	    	             		Repetitive audio trigger fix
+v0.83.40		10/6/2024		Improve & add options to lap times review
+	    	             		Version increments on core technologies
+	    	             		Improved datastream handling
+	    	             		Update Map viewer with faster tools
+	    	             		Add 0.25x zoom option
 v0.83.39		7/27/2024		Single line Copy & Paste feature from log boxes
 	    	             		Import & Export options for layout configuration
 v0.83.38		7/24/2024		New time localization settings & display options
