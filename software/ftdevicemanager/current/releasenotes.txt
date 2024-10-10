@@ -214,3 +214,4 @@ v1.18.0.1   10/10/2024  Support communication with CAN devices over FT200 (USB-C
                         Support DriverID: device info and real-time monitoring, device setup, log viewer, firmware update.
                         Updated FT200 product manual.
                         Communication with FT200 (reading/writing device settings, resetting device, etc.) is now performed via USB-CDC interface. If that fails, fall back to the tradition USB-MSC interface.
+v1.18.0.2   10/10/2024  Signed Installer Release
