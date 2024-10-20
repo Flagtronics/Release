@@ -1,4 +1,6 @@
 Version	    	Date     		Notes
+v0.83.44		10/20/2024		Network Status bug fix
+	    	             		Minor refactor for car speed
 v0.83.43		10/16/2024		Add DriverID no puck detected message
 	    	             		Add lap pit index fix
 v0.83.42		10/11/2024		Add DriverID log
