@@ -1,4 +1,5 @@
 Version	    	Date     		Notes
+v0.83.47		11/8/2024		Provide image cache for instances where no internet connection is available
 v0.83.46		11/3/2024		Fix Car # update after network status list change bug
 v0.83.45		11/2/2024		Add multiple classes per car handling
 	    	             		Add bypass map cache option to get newer map options in some cases
