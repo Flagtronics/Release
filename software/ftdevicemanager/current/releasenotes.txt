@@ -1,3 +1,27 @@
+************************************************************************************************************************
+Version:
+    1.19.0.4
+
+Date:
+    2024 Nov 8
+
+Fixes:
+    1) Fixed bug in display DriverID information (Device Information and Device Enumeration screens).
+    2) Fixed the bug in detecting FT200 USB-CDC port when the host PC has native COM ports.
+    3) Fixed bug in changing default track map of FT200.
+
+Changes:
+    1) Support log files v6 of FT200 in SignBoard mode
+    2) Automatically disable DriverID's WiFi soft access point after updating its firmware to v1.0.0.0 or higher.
+    3) Log files of Ethernet controller of Track Director M4 can now be accessed (view, download, erase) in Log Viewer
+       screen.
+    4) Log settings of Ethernet controller of Track Director M4 can be changed in Device Setup screen.
+
+
+************************************************************************************************************************
+RELEASE NOTES OF EARLIER VERSION
+************************************************************************************************************************
+
 Version	Date     	Notes
 v0.10	9/30/2021	Production Version!
 v0.11	10/7/2021	PIRC/PITT Track Map, bug fixes, Multi-select Track Maps
