@@ -1,5 +1,19 @@
 ************************************************************************************************************************
 Version:
+    1.19.1.x
+
+Date:
+    2024 Nov 20
+
+Changes:
+    1) During firmware update of FT200, for Bootloader older than v0.4.7.4 and Bootloader updater older than v0.1.3.3,
+       a dummy file of about 1MB will be created on the root folder of the device before burning the relevant firmware
+       image onto it. That is to workaround the new file-copying mechanism of recent Windows 11 releases which causes
+       the firmware update of FT200 to fail.
+
+
+************************************************************************************************************************
+Version:
     1.19.0.4
 
 Date:
