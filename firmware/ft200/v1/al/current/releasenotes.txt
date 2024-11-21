@@ -11,3 +11,4 @@ v0.4.6.5	10/25/2022	Pull display low in low level bootrom to prevent bootup spar
 v0.4.7.0	05/29/2023	Add CRC check on flash program from apploader, and inhibit booting on fail.
 v0.4.7.1	06/04/2024	Update header metadata for improved updates
 v0.4.7.2	06/06/2024	Included DID in readme file
+v0.4.7.4	11/19/2024	Update flash write process for better Windows Compatibility
