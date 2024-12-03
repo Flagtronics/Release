@@ -1,5 +1,18 @@
 ************************************************************************************************************************
 Version:
+    1.7.0.0
+
+Date:
+    2024 Oct 30
+
+Changes:
+    + Use compression for firmware update if the system is x64. This will reduce the update time.
+    + For SignBoard panels running firmware v0.13.0.0 or higher, the software performs firmware update parallelly.
+      That reduces up to 50% of the time updating firmware.
+
+
+************************************************************************************************************************
+Version:
     1.6.0.2
 
 Date:
