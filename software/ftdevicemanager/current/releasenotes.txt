@@ -1,5 +1,25 @@
 ************************************************************************************************************************
 Version:
+    1.21.0.x
+
+Date:
+    2024 Dec 23
+
+Fixes:
+    1) CAN "auto send rate" setting was not written to FT200 on Save
+
+Changes:
+    1) Flagtronics Flash Programming Tool now supports flashing firmware for ESP32 on Trackside M4 devices.
+    2) Support VID 0x10C4 and PID 0xEA60/0xEA63 of CP2102.
+    3) Automatically install CP2012 driver (for USB port of DriverID) if have not done so.
+    4) Support reading and flashing device configuration of DriverID and Trackside M4 devices over USB-serial.
+    5) Show DriverID's MAC address in Device Setup page.
+    6) Support CAN bus testing (packet drop test) of CAN devices (Device Information page).
+    7) Query and display battery information of FT200 (Device Information page).
+
+
+************************************************************************************************************************
+Version:
     1.20.0.x
 
 Date:
