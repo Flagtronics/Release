@@ -1,5 +1,22 @@
 ************************************************************************************************************************
 Version:
+    1.22.0.x
+
+Date:
+    2025 Jan 12
+
+Fixes:
+    1) If USB-CDC interface of the FT200 is available but the device didn't respond to our commands, there are some
+       problems with USB-CDC interface of the device. The root cause is not known yet. The workaround for now is to
+       silently restart the device over USB-MSC interface.
+
+Changes:
+    1) Support new generic Trackside Bootloaders for indoor, outdoor, and controller devices.
+    2) Support FT-RD module: Device Information, Device Setup, Firmware Update (main application firmware).
+
+
+************************************************************************************************************************
+Version:
     1.21.0.x
 
 Date:
