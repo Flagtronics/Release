@@ -1,3 +1,4 @@
+Version	    Date    	Notes
 v0.4.3.0	02/26/2021	Base version
 v0.4.4.0	07/27/2021	Update to change icon, autorun and readme
 v0.4.5.0	07/28/2021	Initial Release Version. Update to jump to bootloader application. 
