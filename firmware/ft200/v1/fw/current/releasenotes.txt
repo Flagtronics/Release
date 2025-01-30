@@ -17,7 +17,7 @@ v0.4.8.5	9/30/2021	-	GPS reinit fix, older bootrom version support, FS improveme
 v0.4.8.6	9/30/2021	-	Production Version! GPS reinit improvement. 
 v0.4.8.7	10/22/2021	-	Local flag clear updates.
 v0.4.8.8	11/17/2021	-	Accelerometer bug fixes, GPS improvements, Inverted display option, brightness improvements, code efficiency updates, overtemp condition updates, animation changes, accident triggers, battery only power mode option for rental units.
-v0.4.8.9	    -    	-	Customer Demo
+v0.4.8.9	    -    	-	Customer Demo (NWIRC specific FW)
 v0.4.8.10	    -    	-	2021 PRI Demo
 v0.4.8.11	1/19/2022	-	GPS simulation & logger updates
 	                 	-	brightness fix
@@ -254,3 +254,12 @@ v0.7.3.5	11/27/2024	3.3	Org Specific Settings
 v0.7.3.6	11/27/2024	3.3	Org Specific Settings
 v0.7.3.7	11/27/2024	4.0	Org Specific Settings
 v0.7.3.8	11/27/2024	4.0	Org Specific Settings
+v0.7.3.9	1/20/2025	0.0	Add Battery SOC message for Flagtronics Device Manager Software
+v0.8.0.0	1/24/2025	0.0	2025 Release
+v0.8.0.1	1/24/2025	1.0	Org Specific Settings
+v0.8.0.2	1/24/2025	2.0	Org Specific Settings
+v0.8.0.3	1/24/2025	2.0	Org Specific Settings
+v0.8.0.4	1/24/2025	3.3	Org Specific Settings
+v0.8.0.5	1/24/2025	3.3	Org Specific Settings
+v0.8.0.6	1/24/2025	4.0	Org Specific Settings
+v0.8.0.7	1/24/2025	4.0	Org Specific Settings
