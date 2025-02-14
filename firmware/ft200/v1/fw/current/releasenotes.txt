@@ -257,9 +257,11 @@ v0.7.3.8	11/27/2024	4.0	Org Specific Settings
 v0.7.3.9	1/20/2025	0.0	Add Battery SOC message for Flagtronics Device Manager Software
 v0.8.0.0	1/24/2025	0.0	2025 Release
 v0.8.0.1	1/24/2025	1.0	Org Specific Settings
-v0.8.0.2	1/24/2025	2.0	Org Specific Settings
-v0.8.0.3	1/24/2025	2.0	Org Specific Settings
-v0.8.0.4	1/24/2025	3.3	Org Specific Settings
-v0.8.0.5	1/24/2025	3.3	Org Specific Settings
-v0.8.0.6	1/24/2025	4.0	Org Specific Settings
-v0.8.0.7	1/24/2025	4.0	Org Specific Settings
+v0.8.0.2	2/5/2025	0.0	Pittimer CANbus bug fix
+v0.8.0.3	2/5/2025	1.0	Org Specific Settings
+v0.8.0.4	2/5/2025	2.0	Org Specific Settings
+v0.8.0.5	2/5/2025	2.0	Org Specific Settings
+v0.8.0.6	2/5/2025	3.3	Org Specific Settings
+v0.8.0.7	2/5/2025	3.3	Org Specific Settings
+v0.8.0.8	2/5/2025	4.0	Org Specific Settings
+v0.8.0.9	2/5/2025	4.0	Org Specific Settings
