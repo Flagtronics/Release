@@ -1,5 +1,18 @@
 ************************************************************************************************************************
 Version:
+    1.24.0.x
+
+Date:
+    2025 Feb 18
+
+Changes:
+    1) For Ethernet Controller of Track Director M4 running firmware v1.4.0.5 or higher, the user can now configure
+       IP address assignment method between Auto configuration (DHCP + static) and Static configuration.
+    2) Added Web user interface settings in Device Setup screen for configuration of the Web interface.
+
+
+************************************************************************************************************************
+Version:
     1.23.0.x
 
 Date:
