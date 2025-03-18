@@ -1,5 +1,22 @@
 ************************************************************************************************************************
 Version:
+    1.25.0.2
+
+Date:
+    2025 Mar 16
+
+Fixes:
+    1) Settings related to the LED display and the light sensors (display inversion, light sensor selection, light
+       curves and thresholds) are now hidden on Device Setup screen of an FT-RCV.
+
+Changes:
+    2) FDM software now can work with an FT200 device whose USB drive is corrupt or unrecognized by Windows. While
+       working on that mode, features depending on USB drive (e.g, Track Map Manager, Log Viewer, GPS Simulation) will
+       not available.
+
+
+************************************************************************************************************************
+Version:
     1.24.0.x
 
 Date:
