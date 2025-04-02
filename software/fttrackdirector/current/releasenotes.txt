@@ -1,5 +1,14 @@
 Version	    	Date     		Notes
-v0.85.00		??/??/????		Upgrade from .net framework 4.7.2 to .net 8
+v0.85.6	     	3/7/2025		Update Harris Hill trackmap to v3
+v0.85.5	     	3/6/2025		Prevent older FT200 firmware versions from creating false lap reports
+v0.85.4	     	3/5/2025		Update Class system
+v0.85.3	     	3/2/2025		Fix missing speed text boxes in Track Settings
+v0.85.2	     	3/2/2025		Updated DriverID detection language
+v0.85.1	     	2/14/2025		NetworkStatusView Bug Fix
+	    	             		Partial Port from Winforms to WPF
+v0.85.0	     	1/22/2025		.net framwork 4.7.2 to .NET 8 migration
+v0.83.48		12/7/2024		Add Data Capture tool for raw messages
+	    	             		RaceResults Browser Fix
 v0.83.47		11/8/2024		Provide image cache for instances where no internet connection is available
 v0.83.46		11/3/2024		Fix Car # update after network status list change bug
 v0.83.45		11/2/2024		Add multiple classes per car handling
@@ -30,9 +39,9 @@ v0.83.38		7/24/2024		New time localization settings & display options
 	    	             		Improve Team based sorting in Network Status View
 	    	             		Add new read only device recognition
 v0.83.37		7/11/2024		Advanced Code 35 / Purple settings based on speed
-								New volume controls
-								New text & flag icon scaling
-								Layout import / export problems
+	    	             		New volume controls
+	    	             		New text & flag icon scaling
+	    	             		Layout import / export problems
 v0.83.36		6/25/2024		Update IMessenger path for trackstate
 	    	             		Update CSVhelper dependency
 	    	             		Fix car data export problem
@@ -265,7 +274,7 @@ v0.78	    	2/6/2023		Code refactoring for improvements in several subsystems
 v0.77	    	1/25/2023		Remove logging for invalid speed infractions due to vehicle stopped on track or bad GPS
 	    	             		Shorten text in docks on right for easier interpretation at low resolutions
 	    	             		Move incident log to default location on right panel
-				Improvements to records being passed between subsystems
+	    	             		Improvements to records being passed between subsystems
 v0.76	    	1/21/2023		Allow special roles to import & export so vehicles like pace car can be kept race to race
 	    	             		Improve cardata import process, cleansing, & validation
 	    	             		Specific incident log
