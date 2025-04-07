@@ -1,5 +1,18 @@
 ************************************************************************************************************************
 Version:
+    1.26.0.x
+
+Date:
+    2025 Apr 7
+
+Changes:
+    1) Updated firmware feature description file of FT-RD (v0.0.2)
+    2) Added FT200 Device Diagnosis page to conduct device self-test cases for FT200, FT-RD and FT-AIO
+    3) Support resizing main window of the software.
+
+
+************************************************************************************************************************
+Version:
     1.25.0.2
 
 Date:
@@ -10,7 +23,7 @@ Fixes:
        curves and thresholds) are now hidden on Device Setup screen of an FT-RCV.
 
 Changes:
-    2) FDM software now can work with an FT200 device whose USB drive is corrupt or unrecognized by Windows. While
+    1) FDM software now can work with an FT200 device whose USB drive is corrupt or unrecognized by Windows. While
        working on that mode, features depending on USB drive (e.g, Track Map Manager, Log Viewer, GPS Simulation) will
        not available.
 
