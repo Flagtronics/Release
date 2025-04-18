@@ -1,5 +1,19 @@
 ************************************************************************************************************************
 Version:
+    1.27.0.x
+
+Date:
+    2025 Apr 16
+
+Changes:
+    1) Improved UI when size of the main window is maximized
+    2) Added FT-RD Update Tool For Legacy Firmware into More->Tools menu. The tool is for updating FT-RD running
+       legacy firmware (v1.0.1, v1.0.2, or v1.0.3) to v1.0.4 which supports Commander protocol.
+    3) Support TrackMap OTA 4-channel M0/M4 devices.
+
+
+************************************************************************************************************************
+Version:
     1.26.0.x
 
 Date:
