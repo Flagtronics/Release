@@ -1,5 +1,20 @@
 ************************************************************************************************************************
 Version:
+    1.27.1.x
+
+Date:
+    2025 Apr 20
+
+Fixes:
+    1) Increased time scanning for FT-RD after running "FT-RD Update Tool For Legacy Firmware" tool from 1 second to 3
+       seconds. Display progress bar and descriptive text while scanning.
+    2) Specify log file path on running "FT-RD Update Tool For Legacy Firmware" tool. If the update fails, allow the
+       user to view the log file of the update process.
+    3) While updating firmware of an FT-RCV, display FT-RCV image instead of FT200 image.
+
+
+************************************************************************************************************************
+Version:
     1.27.0.x
 
 Date:
