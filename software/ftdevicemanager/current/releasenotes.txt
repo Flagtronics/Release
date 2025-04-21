@@ -1,5 +1,17 @@
 ************************************************************************************************************************
 Version:
+    1.27.2.x
+
+Date:
+    2025 Apr 21
+
+Fixes:
+    1) Enable UTF-8 encoding for the update script of FT-RD Update Tool For Legacy Firmware.
+    2) Use FT200 firmware v0.8.0.12 for FT-RCV after using it for FT-RD Update Tool For Legacy Firmware.
+
+
+************************************************************************************************************************
+Version:
     1.27.1.x
 
 Date:
