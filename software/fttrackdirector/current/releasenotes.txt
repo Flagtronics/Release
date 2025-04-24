@@ -1,9 +1,13 @@
 Version	    	Date     		Notes
+v0.85.12	   	4/24/2025		Improve VS publication process
+	    	             		Fix midnight crossing bug
+	    	             		UI & sorting improvements
 v0.85.11	   	4/11/2025		Improvements in device connection system & form
 	    	             		Added null instance protections for audio system
 	    	             		Map Zoom Fix
 	    	             		Allow CSV or JSON import
-v0.85.10	   	4/5/2025		Update new WPF windows to float for improved visibility on multiple monitors, for broadcasts, etc. v0.85.9	     	4/5/2025		Add speed trap feature
+v0.85.10	   	4/5/2025		Update new WPF windows to float for improved visibility on multiple monitors, for broadcasts, etc. 
+v0.85.9	     	4/5/2025		Add speed trap feature
 	    	             		DriverID name & logging updates
 v0.85.8	     	4/4/2025		Show active loaded DB
 	    	             		Add convenience options like use existing cardata 
@@ -13,7 +17,6 @@ v0.85.7	     	4/2/2025		Finish port to WPF
 	    	             		Allow appending car data to allow adding to active car list
 	    	             		Add Channel Plan editing form with credentialed access
 	    	             		Logging improvements
-v0.85.6	     	3/7/2025		Update Harris Hill trackmap to v3
 v0.85.6	     	3/7/2025		Update Harris Hill trackmap to v3
 v0.85.5	     	3/6/2025		Prevent older FT200 firmware versions from creating false lap reports
 v0.85.4	     	3/5/2025		Update Class system
