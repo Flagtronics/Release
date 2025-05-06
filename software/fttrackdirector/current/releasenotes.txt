@@ -1,4 +1,22 @@
 Version	    	Date     		Notes
+v0.85.14	   	4/26/2025		Signed Installer Increment test
+v0.85.13	   	4/26/2025		New automated security certificate signing implemented 
+	    	             		Fix bug where cars with No DID module were not being logged in speed trap logs.
+	    	             		Change Speed trap form to capture top speed from each car.
+	    	             		Change Speed trap form to have Reset button function. Currently this only affects the speed trap form and not the speed trap log.
+	    	             		Offer a dedicated pit lane speed violation log.
+	    	             		Add zone & station notation to the speed traps to avoid confusion if Zone 6 is really station 4A for example.
+	    	             		Add car # and timestamp to the Speed trap form.
+	    	             		Add car# to the speed trap log.
+	    	             		Change from Unknown Driver to No DID Module.
+	    	             		Show No Puck Found instead of Driver ID 4294967295, which isn't recognizable to the user.
+	    	             		DeviceID handling improvements.
+	    	             		Firmware version warnings now only apply to FT200 devices and not trackside devices.
+	    	             		Add copy & CTRL-C to logs to allow the user to copy a line.
+v0.85.12	   	4/24/2025		Improve VS publication process
+	    	             		Fix midnight crossing bug
+	    	             		UI & sorting improvements
+v0.85.11	   	4/11/2025		Improvements in device connection system & form
 v0.85.12	   	4/24/2025		Improve VS publication process
 	    	             		Fix midnight crossing bug
 	    	             		UI & sorting improvements
