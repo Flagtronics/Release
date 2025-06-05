@@ -1,5 +1,57 @@
 ************************************************************************************************************************
 Version:
+    1.30.0.x
+
+Date:
+    2025 May 31
+
+Fixes:
+    1) Fixed bug in checking for new version of external tools.
+
+Changes:
+    1) Added settings for multicasting of TD/BC 4CH M4 in Device Setup screen.
+    2) Improved the speed scanning for TD/BC 4CH M4 devices over mDNS.
+    3) Updated external tool Flagtronics mDNS Scanner to v2.1.1
+    4) Added SignBoard zone number in Device Information screen (Admin user)
+
+
+************************************************************************************************************************
+Version:
+    1.29.0.x
+
+Date:
+    2025 May 21
+
+Changes:
+    1) Track Map Manager now supports track maps from organization.
+    2) Track zone of FT200 in SignBoard mode can be configured in Device Setup screen.
+
+
+************************************************************************************************************************
+Version:
+    1.28.0.x
+
+Date:
+    2025 May 13
+
+Fixes:
+    1) Fixed issue causing error message "Failed to convert NVS binary image into setting file" of Flagtronics Flash
+       Programming Tool.
+
+Changes:
+    1) Support checking and updating Bootloader firmware of FT-RD. This requires FT-RD to run Main Application
+       firmware v1.0.7.0 or higher.
+    2) Support 1-level hierarchy (e.g, FT-RD is a child of FT-RCV) in the device list of Main Window and Admin
+       Enumeration page.
+    3) External tools (e.g, Flagtronics Flash Programming Tool) are now not embedded in the software installer any more.
+       Instead, they will be downloaded and stored in the software cache when the user first runs the tools.
+       If there are newer version, external tools are automatically updated OTA.
+    4) Added external tool "Flagtronics mDNS Scanner" which can be downloaded and started via menu More -> Tools ->
+       Flagtronics mDNS Scanner.
+
+
+************************************************************************************************************************
+Version:
     1.27.2.x
 
 Date:
