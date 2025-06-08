@@ -1,5 +1,20 @@
 ************************************************************************************************************************
 Version:
+    1.30.1.x
+
+Date:
+    2025 Jun 8
+
+Fixes:
+    1) Fixed unhandled exception while writing "command.run" file to FT200 drive.
+    2) Improved FT200 device scanning: scanning over USB-CDC is performed first, scanning over USB-MSC is then
+       performed as a fallback.
+    3) Improved FT200 file system recovery process: the recovery attempt (restart/factory reset) is performed over
+       USB-CDC, if that fails fall back to using USB-MSC (i.e, "command.run" file).
+
+
+************************************************************************************************************************
+Version:
     1.30.0.x
 
 Date:
