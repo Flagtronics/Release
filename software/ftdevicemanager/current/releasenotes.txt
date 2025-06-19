@@ -1,5 +1,20 @@
 ************************************************************************************************************************
 Version:
+    1.31.1.x
+
+Date:
+    2025 Jun 19
+
+Fixes:
+    1) FT200 device running firmware v0.7.1.14 or older appeared as two FT200s (one with FT200 drive, one with COM
+       port with DID 0), that prevented the device to be updated.
+
+Changes:
+    1) Minor improvement in the way notice list is stored in devices.
+
+
+************************************************************************************************************************
+Version:
     1.31.0.x
 
 Date:
