@@ -1,5 +1,18 @@
 ************************************************************************************************************************
 Version:
+    1.33.0.x
+
+Date:
+    2025 Jul 20
+
+Changes:
+    1) Check for required network access permissions, and request for the permissions if have not already granted.
+    2) Updated Flagtronics mDNS Scanner with network permission check.
+    3) Selecting a device in Device Enumeration page will open that device in the main window.
+
+
+************************************************************************************************************************
+Version:
     1.32.0.x
 
 Date:
