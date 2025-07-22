@@ -1,4 +1,19 @@
 Version	    	Date     		Notes
+v0.85.20	    	7/22/2025		Improve device name logging in application log
+	    	             		Resolve directory access problem when non-admin user for in-software update system
+	    	             		Remove blue selection box when Car NONE is selected
+v0.85.19		7/19/2025		Improve automatic certificate signing and GitHub actions
+v0.85.18		7/19/2025		Futher Connection Manager Bug fixes & Improvements
+	    	             		Additional Time Zone Controls added
+	    	             		Fix connection lights bug
+	    	             		Improve best lap time handling in Race Results Browser
+v0.85.17		7/17/2025		DriverID updates imporved in network list
+	    	             		Connection Manager Improvements
+v0.85.16		5/26/2025		Improvements to Pit Times View
+	    	             		Silent DB Backup on insatll
+v0.85.15	   	5/6/2025		Do not require admin permissions to start
+	    	             		Improved release workflow
+	    	             		Updates to logging & settings to XML/JSON files instead of registry
 v0.85.14	   	4/26/2025		Signed Installer Increment test
 v0.85.13	   	4/26/2025		New automated security certificate signing implemented 
 	    	             		Fix bug where cars with No DID module were not being logged in speed trap logs.
