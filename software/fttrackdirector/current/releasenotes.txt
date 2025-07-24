@@ -1,9 +1,13 @@
 Version	    	Date     		Notes
-v0.85.20	    	7/22/2025		Improve device name logging in application log
+v0.85.21	   	7/24/2025		Fix bug when clicking on cars in network list
+	    	             		Add automatic disconnect to connection manager form
+	    	             		Improve FQDN connection handling
+	    	             		Notification for cars outside expected zones
+v0.85.20	   	7/22/2025		Improve device name logging in application log
 	    	             		Resolve directory access problem when non-admin user for in-software update system
 	    	             		Remove blue selection box when Car NONE is selected
-v0.85.19		7/19/2025		Improve automatic certificate signing and GitHub actions
-v0.85.18		7/19/2025		Futher Connection Manager Bug fixes & Improvements
+v0.85.19	   	7/19/2025		Improve automatic certificate signing and GitHub actions
+v0.85.18	   	7/19/2025		Futher Connection Manager Bug fixes & Improvements
 	    	             		Additional Time Zone Controls added
 	    	             		Fix connection lights bug
 	    	             		Improve best lap time handling in Race Results Browser
