@@ -1,4 +1,9 @@
 Version	    	Date     		Notes
+v0.85.23	   	8/7/2025		Change minimum FT200 firmware to 0.8.0.0
+	    	             		Improvements in task management when stopping a race
+	    	             		Zone Map Option
+	    	             		Continued Connection Manager re-work
+	    	             		Minimum Pit time
 v0.85.22	   	8/1/2025		Major Connection Manager re-work
 	    	             		Improve logging & improve null handling creating crash events
 v0.85.21	   	7/24/2025		Fix bug when clicking on cars in network list
