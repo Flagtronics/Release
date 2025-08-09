@@ -1,5 +1,27 @@
 ************************************************************************************************************************
 Version:
+    1.34.0.x
+
+Date:
+    2025 Aug 9
+
+Fixes:
+    1) Fixed the race condition at application startup between the intialization of the UI thread and the use of the
+       thread while FT200 view model was being constructed.
+    2) In Device Enumeration page, Ethernet icon wasn't shown on devices connected over Ethernet interface
+       (e.g, TD 4CH M4).
+    3) Icon of TD/BC 4CH M4 devices was not shown while they are in Bootloader mode.
+
+Changes:
+    1) Added context menu in Track Map Builder to allow the user to insert or remove a row in Track Data table.
+    2) Revise Device Enumeration page to allow the user to:
+       + Manually exit Bootloader mode of TD/BC 4CH M4.
+       + Manually reset connected Flagtronics devices when supported.
+       + Open Web interface of TD/BC 4CH M4.
+
+
+************************************************************************************************************************
+Version:
     1.33.0.x
 
 Date:
