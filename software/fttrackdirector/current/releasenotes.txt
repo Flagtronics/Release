@@ -1,4 +1,7 @@
 Version	    	Date     		Notes
+v0.85.24	   	8/9/2025		Add Tooltips to connection manager write boxes to inform user the connection must be disabled to change write options
+	    	             		Remove port determines read write, allowing user direct control but an information box and duplicate prevention via writable flag
+	    	             		Clean up some build warnings
 v0.85.23	   	8/7/2025		Change minimum FT200 firmware to 0.8.0.0
 	    	             		Improvements in task management when stopping a race
 	    	             		Zone Map Option
