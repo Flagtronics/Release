@@ -1,5 +1,24 @@
 ************************************************************************************************************************
 Version:
+    1.34.1.x
+
+Date:
+    2025 Sep 11
+
+Fixes:
+    1) The popup requesting firmware update for a device could be unexpectedly displayed for another device if the
+       checking for latest cloud firmware took too long (e.g, due to bad Internet connection). The root cause is
+       that the popup was unexpectedly displayed while the user had selected another device.
+    2) If an admin user manually switched a track-side device into Bootloader mode and then updated firmware for that
+       device, the update would fail on devices with Generic Bootloader. The root cause is that FDMsw wrongly picked
+       the correct firmware for devices with Generic Bootloader.
+
+Changes:
+    1) Support track map OTA firmware with different versions for different tracks.
+
+
+************************************************************************************************************************
+Version:
     1.34.0.x
 
 Date:
