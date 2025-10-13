@@ -1,5 +1,26 @@
 ************************************************************************************************************************
 Version:
+    1.10.0.x
+
+Date:
+    2025 Sep 22
+
+Changes:
+    1) Incorporated improvements and fixes for Device Setup screen and Factory Settings screen from FDMsw: support
+       parameter groups (features), support parameter tables, more responsive UI, remember expander state while
+       switching between panels, etc.
+    2) CAN setting "Termination resistor" in Device Setup screen is only visible in panel hardware v5.0 or later.
+    3) Support maximizing and resizing the main window.
+    4) Use different window icons for Operator user and Admin user.
+    5) Improved firmware update process:
+       + A failed update on one panel will not affect successful updates on other panels.
+       + If uploading a firmware data chunk fails, attempt uploading 3 times before giving up.
+    6) Updated the factory tool using the latest EXE version from Espressif instead of the legacy Python scripts.
+    7) Added Device Info screen.
+
+
+************************************************************************************************************************
+Version:
     1.9.0.x
 
 Date:
