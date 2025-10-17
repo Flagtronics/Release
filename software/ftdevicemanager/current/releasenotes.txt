@@ -1,5 +1,21 @@
 ************************************************************************************************************************
 Version:
+    1.35.0.x
+
+Date:
+    2025 Oct 6
+
+Changes:
+    1) Support FT200 track maps in JSON format. Track maps will be handled (imported, exported, generated, downloaded,
+       etc.) in JSON format instead of the legacy format.
+    2) Reworked Track Map Builder to support new metadata fields provided by JSON format. Building a track map with
+       Track Map Builder now generates track map in JSON format, not CSV and TRK formats any more.
+    3) Track map OTA update now looks for JSON track maps in "JSON" folder (instead of "TRK" folder) of "TrackMaps"
+       repository.
+
+
+************************************************************************************************************************
+Version:
     1.34.1.x
 
 Date:
