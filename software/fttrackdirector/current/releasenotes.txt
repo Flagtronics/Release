@@ -1,4 +1,17 @@
 Version	    	Date     		Notes
+v0.86.00	   	12/4/2025		Pit Time Bug fixes & improvements
+	    	             		Improve Decode / Debug Viewer
+	    	             		Add Serial Datastream recorder
+	    	             		Add DriverID API subsystem
+	    	             		Audio system improvements
+	    	             		Minor Connection Manager improvements
+	    	             		Show reception points for cars relative to broadcasters as part of a broader network health system
+	    	             		Catch block & null protection quality improvements
+	    	             		Add Thompson V4
+v0.85.25	   	8/16/2025		Dependency updates
+	    	             		Connection Manager updates
+	    	             		Org Settings
+	    	             		Minor Bug fixes
 v0.85.24	   	8/9/2025		Add Tooltips to connection manager write boxes to inform user the connection must be disabled to change write options
 	    	             		Remove port determines read write, allowing user direct control but an information box and duplicate prevention via writable flag
 	    	             		Clean up some build warnings
