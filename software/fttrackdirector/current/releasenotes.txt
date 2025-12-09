@@ -1,4 +1,8 @@
-Version	    	Date     		Notes
+v0.86.3 	   	12/9/2025		Org settings hotfix for data length check 
+	    	             		Org settings hotfix for null exception catch that prevented form loading
+	    	             		Thread safety and further improvements to DriverID API & Mapping systems
+	    	             		Unify reception graphics & levels between systems to better convey reception information
+v0.86.2 	   	12/6/2025		Add DriverID API Device Mapping to automatically match RFID/bleMAC to DriverID #
 v0.86.00	   	12/4/2025		Pit Time Bug fixes & improvements
 	    	             		Improve Decode / Debug Viewer
 	    	             		Add Serial Datastream recorder
