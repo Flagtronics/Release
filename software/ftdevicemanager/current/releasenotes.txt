@@ -1,5 +1,20 @@
 ************************************************************************************************************************
 Version:
+    1.36.0.x
+
+Date:
+    2026 Jan 13
+
+Fixes:
+    1) Fixed error occurred when importing a TRK track map file in Track Map Builder.
+
+Changes:
+    1) Use "dd-MMM-yyyy HH:mm:ss" format for date and time of FT200 log files instead of "hhh:mm:ss.xxx".
+    2) Support new SignBoard DID format (62000xxxx) in 'readme.txt' of FT200.
+
+
+************************************************************************************************************************
+Version:
     1.35.0.x
 
 Date:
