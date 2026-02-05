@@ -283,3 +283,14 @@ v0.8.1.4	5/29/2025	3.3	Org Specific Settings
 v0.8.1.5	5/29/2025	3.3	Org Specific Settings
 v0.8.1.6	5/29/2025	4.0	Org Specific Settings
 v0.8.1.7	5/29/2025	4.0	Org Specific Settings
+v0.9.0.0	2/4/2026	0.0	Org Specific Variants are obsolete, use TrackDirector Software to send Org Settings! 
+	                 	-	DriverID confidence rework to improve accuracy
+	                 	-	GPS stream recovery improvements
+	                 	-	GPS initialization improvements
+	                 	-	Minimum firmware version enforcement with paddock "Update Required" message
+	                 	-	FT200 ID reporting improvement to better note Car vs Signboard mode
+	                 	-	Logging timestamp improvements
+	                 	-	Improve scroll position reset between display messages
+	                 	-	Improve heartbeat message timing in signboard mode
+	                 	-	Pit lane signboards have dedicated local mode for pit in/out in zones 56-63
+	                 	-	Improve bootrom & bootloader reporting on older, legacy hardware
