@@ -1,5 +1,17 @@
 ************************************************************************************************************************
 Version:
+    1.11.0.x
+
+Date:
+    2026 Feb 8
+
+Changes:
+    1) Added individual LEDs test to "Flag Display Test" screen for testing all LEDs of the selected SignBoard panel.
+    2) Added "Panel model" setting in Device Setup screen to specify the panel model used (P10 and M10).
+
+
+************************************************************************************************************************
+Version:
     1.10.0.x
 
 Date:
