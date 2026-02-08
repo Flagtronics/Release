@@ -1,3 +1,6 @@
+v0.86.4	   	2/8/2026		Add DriverID "Verifying" status to Network Status, DriverID log, DriverID API for 20s verification window exiting pits
+	    	             		Race Replay introduction
+								Always overwrite DriverID RFID:MAC:DriverID mapping
 v0.86.3 	   	12/9/2025		Org settings hotfix for data length check 
 	    	             		Org settings hotfix for null exception catch that prevented form loading
 	    	             		Thread safety and further improvements to DriverID API & Mapping systems
