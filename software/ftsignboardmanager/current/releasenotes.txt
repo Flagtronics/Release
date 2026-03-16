@@ -1,5 +1,28 @@
 ************************************************************************************************************************
 Version:
+    1.11.2.x
+
+Date:
+    2026 Feb 27
+
+Changes:
+    + If the user changes Panel Model (P10 vs M10) in Device Setup page, if needed suggest him to change Lat Drive
+      Strength Level to level 1 or 2, accordingly.
+
+
+************************************************************************************************************************
+Version:
+    1.11.1.x
+
+Date:
+    2026 Feb 18
+
+Fixes:
+    + Fixed error on fetching firmware from cloud.
+
+
+************************************************************************************************************************
+Version:
     1.11.0.x
 
 Date:
