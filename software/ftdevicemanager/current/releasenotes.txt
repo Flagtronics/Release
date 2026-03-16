@@ -1,5 +1,25 @@
 ************************************************************************************************************************
 Version:
+    1.37.0.x
+
+Date:
+    2026 Mar 8
+
+Fixes:
+    1) Exclude "IsInDesignMode" flag on generating a JSON track map.
+
+Changes:
+    1) Improved FT200 organization handling:
+        + If an FT200 firmware of an organization is removed on the cloud, remove it in the local cache as well.
+        + Support FT200 firmware with no organization name, i.e the firmware file name can be something like
+          "flagging_x.y_.bin"
+    2) If GPS module is connected with FT200, show GPS information (HAcc, Vacc, Hdop, Sat, Fix type) in Device
+       Information page of FT200 (Admin user). This requires new FT200 firmware that supports the GPS info query
+       over USB-CDC.
+
+
+************************************************************************************************************************
+Version:
     1.36.0.x
 
 Date:
