@@ -1,3 +1,10 @@
+Version	    	Date     		Notes
+v0.86.6 	   	4/11/2026		Improvements in Race Start / STop
+	    	             		Improvements in Map Caching
+	    	             		Update dependencies
+	    	             		Connector Manager improvements
+	    	             		Network Health tool improvements
+	    	             		Add Pit In / Out Sign functions
 v0.86.5 	   	2/28/2026		multi-line copy feature in some dialogues
 	    	             		Auto connector for local USB Track Directors
 	    	             		Help system improvements
