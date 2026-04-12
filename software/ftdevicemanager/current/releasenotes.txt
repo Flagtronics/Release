@@ -1,5 +1,25 @@
 ************************************************************************************************************************
 Version:
+    1.38.0.x
+
+Date:
+    2026 Apr 10
+
+Changes:
+    1) OTA update of the followings is over release assets instead of binary files in relevant repository folder:
+       + DriverID firmware (release asset "FT_DriverID.bin" in Flagtronics-WiFi-BT repo)
+       + FT-RD application firmware (release asset "Flagtronics-Remote-Display.bin" in Flagtronics-Remote-Display repo)
+       + FT-RD bootloader firmware (release asset "FT-RD-bootloader.bin" in FT-RD-bootloader repo)
+       + ESP32 firmware of TD/BC 4CH M4 (release asset "uart_ethernet_bridge_esp32.bin" in Flagtronics-Trackside-ESP32 repo)
+    2) Show a dialog that allows the user to request for a Bootloader upgrade support if their track-side device is
+       running on a legacy Bootloader (i.e, version is less than v0.0.0.10). The request with device information will
+       be sent to info@flagtronics.com
+    3) Instead of hardcoding secrets (Github PAT, email password, etc.) in the code, they are now isolated in a local
+       text file not committed to source control.
+
+
+************************************************************************************************************************
+Version:
     1.37.0.x
 
 Date:
