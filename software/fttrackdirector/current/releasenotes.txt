@@ -1,4 +1,5 @@
 Version	    	Date     		Notes
+v0.86.7		    4/15/2026		Fixed Center Map Button
 v0.86.6 	   	4/11/2026		Improvements in Race Start / STop
 	    	             		Improvements in Map Caching
 	    	             		Update dependencies
