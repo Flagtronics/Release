@@ -1,4 +1,12 @@
 Version	    	Date     		Notes
+v0.89.0 	   	5/7/2026		Group Class — assign cars to groups, filter Network Status & Race Results by group/class, Quick Add Cars to Group
+		    	             	Broadcaster Filter Plans (GPS-based & zone-based filtering per broadcaster, zones 1-32)
+		    	             	RFID pairing improvements (cooldown, EPC sanitization, driver-name resolution)
+		    	             	Manual Driver ID override via API
+		    	             	Duplicate-Car review dialog with persistent choices
+		    	             	Startup splash screen & DB-bloat advisory
+		    	             	Auto-updater & installer improvements
+		    	             	Bug fixes: lap count inflation, duplicate pit records, midnight rollover, helmet driver clear on unpaired PitOut, network status scroll snap
 v0.86.8 	   	4/24/2026		Import Bug Fix
 	    	             		RFID tooling
 	    	             		Dependency updates
