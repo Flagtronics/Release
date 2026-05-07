@@ -1,5 +1,25 @@
 ************************************************************************************************************************
 Version:
+    1.39.0.x
+
+Date:
+    2026 May 2
+
+Notes:
+    1) In this PR, the secret of the Github PAT was renamed from 'MotosportsPAT' to 'MotorsportsPAT'. According change
+       therefore needs to be done in 'Resources/secrets/secrets.txt' file.
+
+Changes:
+    1) If Auto-Send is not enabled on an FT-RCV, offer the user the possibility to conveniently enable it with a
+       sending rate of 2Hz.
+    2) Changing CAN baud rate of an FT200/FT-RCV will also change baud rate of related FT-RD or DriverID on the CAN bus.
+    3) Changing CAN Tx ID of an FT-RCV will also change CAN Rx ID of related FT-RD on the CAN bus.
+    4) CAN baud rate setting of FT-RD or DriverID is now view-only. Changing the baudrate of those modules must be done
+       via their controller (FT200 or FT-RCV).
+
+
+************************************************************************************************************************
+Version:
     1.38.0.x
 
 Date:
