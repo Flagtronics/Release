@@ -1,5 +1,6 @@
 Version	    	Date     		Notes
-v0.89.1		5/9/2026		Create Car Deduplication bypass option. Same as cancel on the deduplication / reconciliation screen but now red and warnings.
+v0.89.2 		5/11/2026		Fix deduplication to be class aware so that the same car number is allowed if class is different.
+v0.89.1 		5/9/2026		Create Car Deduplication bypass option. Same as cancel on the deduplication / reconciliation screen but now red and warnings.
 v0.89.0 	   	5/7/2026		Group Class — assign cars to groups, filter Network Status & Race Results by group/class, Quick Add Cars to Group
 		    	             	Broadcaster Filter Plans (GPS-based & zone-based filtering per broadcaster, zones 1-32)
 		    	             	RFID pairing improvements (cooldown, EPC sanitization, driver-name resolution)
