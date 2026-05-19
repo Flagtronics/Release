@@ -1,4 +1,5 @@
 Version	    	Date     		Notes
+v0.89.5		    5/19/2026		Fix Google Satellite Map View
 v0.89.4 		5/16/2026		Fix cars dropping from Network Status Active Cars view while passing through pit zones
 		    	             	Quiet log noise from legacy device location broadcasts
 v0.89.3 		5/14/2026		Fix occasional crash and false bug-report prompts when stopping a race
