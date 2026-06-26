@@ -1,5 +1,20 @@
 ************************************************************************************************************************
 Version:
+    1.40.0.x
+
+Date:
+    2026 Jun 25
+
+Fixes:
+    1) Fixed bug in parsing status of firmware update for CAN devices.
+
+Changes:
+    1) Support updating Bootloader of track-side devices over USB interface.
+    2) Removed the dialog allowing users to report track-side devices running legacy Bootloader (added in v1.38.0.x).
+
+
+************************************************************************************************************************
+Version:
     1.39.0.x
 
 Date:
