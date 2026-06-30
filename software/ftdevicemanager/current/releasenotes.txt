@@ -1,5 +1,17 @@
 ************************************************************************************************************************
 Version:
+    1.40.1.x
+
+Date:
+    2026 Jun 25
+
+Fixes:
+    1) Fixed the bug that caused the updating an indoor track-side device to be an outdoor one and vice versa
+       (e.g, updating Broadcaster firmware on a Track Director) to fail.
+
+
+************************************************************************************************************************
+Version:
     1.40.0.x
 
 Date:
