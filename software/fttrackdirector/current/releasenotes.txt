@@ -1,4 +1,18 @@
 Version	    	Date     		Notes
+v0.89.9		    7/18/2026		Fix automated update failing with a download error (404)
+v0.89.8		    7/17/2026		Show sleep status for devices in Network Status
+v0.89.7		    7/13/2026		Allow adding a device with a car number already used in a different class; warn only on a true same-class conflict
+		    	             	Car number changes made to resolve a conflict are now saved and no longer revert when the app restarts
+		    	             	Car edits that fail to save now show an error and let you retry instead of being lost silently
+		    	             	Device warning dialogs can now be copied to the clipboard
+		    	             	Show which program is holding a COM port when a connection fails
+		    	             	Connection Manager: select multiple connections at once in the Connections grid
+		    	             	Add Northeast GT tracks to the track database
+v0.89.6		    7/8/2026		Same car number now allowed in different classes everywhere — adding, editing, merging, and restoring cars
+		    	             	Car-number conflict warnings now say which class and which devices are involved
+		    	             	Edits rejected due to a car-number conflict now show the reason instead of silently reverting
+		    	             	Save menu layout changes more reliably
+		    	             	Clearer uninstall/delete options with access to the backup folder
 v0.89.5		    5/19/2026		Fix Google Satellite Map View
 v0.89.4 		5/16/2026		Fix cars dropping from Network Status Active Cars view while passing through pit zones
 		    	             	Quiet log noise from legacy device location broadcasts
