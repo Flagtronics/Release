@@ -1,5 +1,26 @@
 ************************************************************************************************************************
 Version:
+    1.41.0.x
+
+Date:
+    2026 Jul 23
+
+Fixes:
+    1) Fixed a minor bug on detecting track-side device after firmware update.
+
+Changes:
+    1) Support updating firmware of an FT200 device while multiple FT200 devices are connected.
+       Condition: the updating device must be running Bootloader firmware >= v0.4.7.2.
+    2) Added COM port information for FT200 in Device Enumeration screen.
+    3) Display FT200 organization information as a separate entry in Device Information screen (instead of a part of
+       firmware version).
+    4) Organization information is refreshed periodically in Device Information screen.
+    5) Updated the embedded demo firmware from v13.0.0.1 (basing on legacy FT200 firmware) to v13.0.1.0 (basing on the 
+       latest FT200 firmware)
+
+
+************************************************************************************************************************
+Version:
     1.40.1.x
 
 Date:
