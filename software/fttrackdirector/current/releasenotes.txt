@@ -1,4 +1,11 @@
 Version	    	Date     		Notes
+v0.90.0		    7/24/2026		New Vehicle Info API feed with live car data for integrations
+		    	             	API Settings now shows copyable Access URLs for the DriverID and Vehicle Info feeds
+		    	             	DriverID now follows a set priority when sources disagree: manual override, then RFID helmet tag, then BLE puck
+		    	             	Improve reliability of saving app settings; a corrupted settings file is now backed up and defaults loaded
+		    	             	Car class lists no longer reformat unexpectedly when editing other car details
+		    	             	External API addresses now use api-{locationId} instead of driverid-{locationId}
+		    	             	Remove the old v2 RFID API endpoints (replaced by the v3.0 feeds)
 v0.89.9		    7/18/2026		Fix automated update failing with a download error (404)
 v0.89.8		    7/17/2026		Show sleep status for devices in Network Status
 v0.89.7		    7/13/2026		Allow adding a device with a car number already used in a different class; warn only on a true same-class conflict
