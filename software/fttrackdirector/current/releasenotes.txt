@@ -1,4 +1,6 @@
 Version	    	Date     		Notes
+v0.92.0		    7/25/2026		Network Status: new Only entered cars filter hides devices that are not on the loaded roster, with a count of how many are hidden
+		    	             	API feeds now report timestamps in a consistent whole-second UTC format
 v0.91.0		    7/24/2026		Set or clear a car's driver by hand from Car Info, or by Ctrl+double-clicking a row in Network Status
 		    	             	Registration import now accepts helmet tag sheets and registers new helmet pucks automatically
 		    	             	API Settings now shows the Tunnel ID on stations that previously reported it as unavailable
