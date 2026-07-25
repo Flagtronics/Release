@@ -1,4 +1,7 @@
 Version	    	Date     		Notes
+v0.93.0		    7/25/2026		Turn the Helmet RFID and BLE Puck driver sources on or off from Global Settings; switching a source off releases the drivers it assigned
+		    	             	A car that misses its Pit Out helmet scan now keeps its driver and is highlighted in Network Status, with a menu option to approve the driver as is
+		    	             	Cars no longer pick up a placeholder driver ID from a BLE puck that is still verifying
 v0.92.0		    7/25/2026		Network Status: new Only entered cars filter hides devices that are not on the loaded roster, with a count of how many are hidden
 		    	             	API feeds now report timestamps in a consistent whole-second UTC format
 v0.91.0		    7/24/2026		Set or clear a car's driver by hand from Car Info, or by Ctrl+double-clicking a row in Network Status
