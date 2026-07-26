@@ -1,4 +1,7 @@
 Version	    	Date     		Notes
+v0.94.0		    7/26/2026		Drivers assigned by hand are no longer released when the car pits; the car is highlighted in Network Status for review instead
+		    	             	Installing an update no longer overwrites the driver ID mapping database; installs keep a backup and uninstalling warns before deleting track data
+		    	             	API Settings Access URLs are now always built from the configured Location ID, so copied addresses are correct on every station
 v0.93.0		    7/25/2026		Turn the Helmet RFID and BLE Puck driver sources on or off from Global Settings; switching a source off releases the drivers it assigned
 		    	             	A car that misses its Pit Out helmet scan now keeps its driver and is highlighted in Network Status, with a menu option to approve the driver as is
 		    	             	Cars no longer pick up a placeholder driver ID from a BLE puck that is still verifying
