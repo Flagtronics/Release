@@ -294,3 +294,13 @@ v0.9.0.0	2/4/2026	0.0	Org Specific Variants are obsolete, use TrackDirector Soft
 	                 	-	Improve heartbeat message timing in signboard mode
 	                 	-	Pit lane signboards have dedicated local mode for pit in/out in zones 56-63
 	                 	-	Improve bootrom & bootloader reporting on older, legacy hardware
+v0.9.0.2	8/1/2026	0.0	Wireless reliability improvements to prevent units becoming unresponsive after interference
+	                 	-	Recover from corrupted or noisy wireless traffic instead of losing reception
+	                 	-	Prevent restarts when a signboard stops reporting status
+	                 	-	Local pit open & pit closed flags
+	                 	-	GPS start up detection and recovery improvements
+	                 	-	GPS status can be read over USB
+	                 	-	DriverID accuracy and connection reporting improvements
+	                 	-	Org settings are passed through to a connected remote display
+	                 	-	Display and flag color handling improvements
+	                 	-	Memory handling fixes for track maps and scrolling messages
