@@ -1,4 +1,13 @@
 Version	    	Date     		Notes
+v0.95.0		    7/31/2026		R700 readers can now stream tag reads over HTTP, so more than one laptop can receive reads from the same readers
+		    	             	About now has a Version History button, and the update banner shows What's new for the versions an update brings
+		    	             	Map and control displays refresh at 200ms by default instead of 500ms; existing installs keep their saved setting
+		    	             	Network Status no longer scrolls the selected car back into view
+		    	             	Reader offline time past an hour now reads in hours and minutes instead of raw minutes
+		    	             	A pit reader that fails its network lookup at startup now keeps retrying instead of staying unavailable
+		    	             	A helmet pairing at Pit Out now clears a hand-assigned driver, since the scan confirms who is in the car
+		    	             	Assigning a helmet tag that is already in use now explains the conflict instead of showing a generic error
+		    	             	Fix the download percentage overflowing on the software update banner
 v0.94.0		    7/26/2026		Drivers assigned by hand are no longer released when the car pits; the car is highlighted in Network Status for review instead
 		    	             	Installing an update no longer overwrites the driver ID mapping database; installs keep a backup and uninstalling warns before deleting track data
 		    	             	API Settings Access URLs are now always built from the configured Location ID, so copied addresses are correct on every station
