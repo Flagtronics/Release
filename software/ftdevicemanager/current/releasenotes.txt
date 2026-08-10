@@ -1,5 +1,21 @@
 ************************************************************************************************************************
 Version:
+    1.42.0.x
+
+Date:
+    2026 Aug 10
+
+Changes:
+    1) Updated CP210x-driver from v11.4.0 to v11.5.0 which supports Windows ARM.
+    2) Device Diagnostics screen (FT200/FT-RCV/FT-AIO) is now only visible for Admin user.
+    3) Added Device Log Watcher to Device Diagnostics screen for displaying real-time logs from FT200.
+       This requires FT200 firmware v0.9.0.3 or higher.
+    4) Prevent FT200 firmware larger than 256KB to be updated on device running bootloader earlier than v0.4.8.0
+    5) Support receiving FT200 Commander messages using message format version 2.
+
+
+************************************************************************************************************************
+Version:
     1.41.0.x
 
 Date:
@@ -15,7 +31,7 @@ Changes:
     3) Display FT200 organization information as a separate entry in Device Information screen (instead of a part of
        firmware version).
     4) Organization information is refreshed periodically in Device Information screen.
-    5) Updated the embedded demo firmware from v13.0.0.1 (basing on legacy FT200 firmware) to v13.0.1.0 (basing on the 
+    5) Updated the embedded demo firmware from v13.0.0.1 (basing on legacy FT200 firmware) to v13.0.1.0 (basing on the
        latest FT200 firmware)
 
 
