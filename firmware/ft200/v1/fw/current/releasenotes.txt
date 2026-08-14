@@ -304,3 +304,12 @@ v0.9.0.2	8/1/2026	0.0	Wireless reliability improvements to prevent units becomin
 	                 	-	Org settings are passed through to a connected remote display
 	                 	-	Display and flag color handling improvements
 	                 	-	Memory handling fixes for track maps and scrolling messages
+v0.9.0.3	8/12/2026	0.0	Track maps with an unusable start/finish line are reported so they can be corrected
+	                 	-	Track map updates that stall part way through are abandoned and can be retried
+	                 	-	Track map names that are too long are rejected instead of being silently shortened
+	                 	-	Org ID and version shown over USB stay current when org settings change
+	                 	-	Signboards no longer report themselves as stalled
+	                 	-	Individual car flags are no longer shown on signboards
+	                 	-	False accident alerts clear sooner when the car keeps moving
+	                 	-	Device logs can be captured over USB for diagnostics
+	                 	-	Room for larger firmware updates in future releases
