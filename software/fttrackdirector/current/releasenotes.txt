@@ -1,4 +1,17 @@
 Version	    	Date     		Notes
+v0.96.0		    8/18/2026		An error with map images at startup no longer traps a dialog behind the splash screen; it now shows up as a dismissible on-screen notice
+		    	             	Start Recording in Network Health does not crash the app anymore
+		    	             	Network Status now turns red and alerts if the same driver appears in more than one car at once
+		    	             	Network Status turns red and alerts if a helmet pairing assigns a driver not registered to that car, during events where car numbers are registered
+		    	             	The Connection Manager now warns when another workstation has a device's write connection instead of showing Connecting forever, and edited connection details update in the grid without opening the form again
+		    	             	A new Set Webhook on Readers action under API Settings points pit readers at this PC, with a warning before taking over from another PC using the readers
+		    	             	The reader status indicator now shows if each reader is actually reachable even when no tags are passing, with separate states for a quiet reader, a failed login, and an unreachable reader
+		    	             	R700 readers now work with the standard reader password right away, so a fresh install does not need to retype it before readers connect
+		    	             	Registered RFID tags now match reads regardless of case, so a tag is no longer seen as unregistered because its stored case is different
+		    	             	Registration import now accepts one combined org CSV that loads drivers and car RFID tags together, using the new Org Registration import option
+		    	             	API Settings now shows the installed cloudflared connector version and lets you update it with one click if a newer one is out
+		    	             	Network Status now tells the difference between a car still starting up, a module without a puck, and a missing module, instead of showing No DID Module for all three
+		    	             	Reduces memory use over long sessions, especially with race replay recording, keeping the app fast
 v0.95.0		    7/31/2026		R700 readers can now stream tag reads over HTTP, so more than one laptop can receive reads from the same readers
 		    	             	About now has a Version History button, and the update banner shows What's new for the versions an update brings
 		    	             	Map and control displays refresh at 200ms by default instead of 500ms; existing installs keep their saved setting
