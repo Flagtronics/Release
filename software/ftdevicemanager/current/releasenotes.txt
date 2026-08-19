@@ -1,5 +1,24 @@
 ************************************************************************************************************************
 Version:
+    1.43.0.x
+
+Date:
+    2026 Aug 19
+
+Fixes:
+    1) Handle unreadable FT200 track map files (.trk) gracefully.
+
+Changes:
+    1) Associate start/finish line in .json track map file with zone 224 in .trk & .csv files.
+    2) Associate virtual sector lines in .json track map file with zone 225 ~ 254 in .trk & .csv files.
+    3) Track Map Builder now supports virtual sector lines.
+    4) Update bundled firmware: FT200 firmware v0.9.0.3, FT200 bootloader v0.4.9.0, FT200 bootloader updater v0.1.5.1
+    5) Deprecate org specific FT200 firmware, latest firmware is now fetched from "firmware\ft200\v1\fw\current" folder
+       on the cloud.
+
+
+************************************************************************************************************************
+Version:
     1.42.0.x
 
 Date:
