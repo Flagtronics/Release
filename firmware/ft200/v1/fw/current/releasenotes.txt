@@ -313,3 +313,5 @@ v0.9.0.3	8/12/2026	0.0	Track maps with an unusable start/finish line are reporte
 	                 	-	False accident alerts clear sooner when the car keeps moving
 	                 	-	Device logs can be captured over USB for diagnostics
 	                 	-	Room for larger firmware updates in future releases
+v0.9.0.4	8/18/2026	0.0	Lap times are measured at the painted start/finish line, wherever it sits on the track
+	                 	-	Cars waiting on a starting grid or spinning at the line no longer add extra lap counts
