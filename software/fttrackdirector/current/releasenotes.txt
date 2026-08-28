@@ -1,4 +1,10 @@
 Version	    	Date     		Notes
+v0.98.0		    8/28/2026		Pit reader pairing now matches each helmet scan to the correct car more accurately, so a single bad tag read no longer causes a run of cars to inherit the wrong driver
+		    	             	Car driver assignments now persist across restarts, so a reboot no longer clears the drivers you had set
+		    	             	Each PC now decides on its own whether it owns a reader's reads or streams them, so a second laptop no longer sits dark or receives duplicate reads; readers with no destination set point you to Set Webhook on Readers
+		    	             	Track Director now sends the minimum FT200 firmware version over the air, so an FT200 below the minimum shows its own upgrade-required message instead of only warning on this PC
+		    	             	The minimum-firmware setting now limits each part of the version to a valid value as you type
+		    	             	The DriverID API webhook listener now starts reliably on Windows; the default port moved to 32733 to avoid a range Windows reserves
 v0.97.0		    8/18/2026		Satellite map view loads imagery again on tracks where it had gone blank, now falling back to a backup imagery source when one provider is unavailable
 v0.96.0		    8/18/2026		An error with map images at startup no longer traps a dialog behind the splash screen; it now shows up as a dismissible on-screen notice
 		    	             	Start Recording in Network Health does not crash the app anymore
