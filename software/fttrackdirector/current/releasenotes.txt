@@ -1,4 +1,6 @@
 Version	    	Date     		Notes
+v1.0.0		8/29/2026		A new Clear Driver (All Sources) option in the Network Status menu removes a car's driver no matter
+				manual, helmet RFID, or BLE puck - where Clear Manual Driver only cleared a hand-set driver
 v0.99.0		    8/29/2026		Reader health no longer shows a webhook error while tag reads are still arriving; the warning now appears only when reads have genuinely stopped
 			    	             	Car RFID tags can now be imported and exported as CSV, imports accept common spreadsheet header spellings, and a file whose columns cannot be matched now reports the problem instead of silently importing nothing
 			    	             	A new setting, off by default, lets helmet scans pair to cars that are not in the loaded roster, with those pairings marked in the DriverID log
