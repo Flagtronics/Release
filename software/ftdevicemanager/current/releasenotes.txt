@@ -1,5 +1,26 @@
 ************************************************************************************************************************
 Version:
+    1.44.0.x
+
+Date:
+    2026 Sep 6
+
+Fixes:
+    1) Fix Track-side Firmware Update selecting an older bundled firmware after an in-place upgrade of this software.
+       The newest bundled firmware is now selected by version, and the installer removes the previous release's files.
+    2) On updating FT200 firmware, device ID check while switching mode (e.g, application <-> bootloader) is skipped
+       if there is one FT200 attached.
+    3) Fix the intermittent missing of FT200 Device Diagnostics Screen because USB-CDC was not enumerated in time.
+    4) Fix the clipping of track-side Firmware Update screen at default window size.
+
+Changes:
+    1) Update bundled track-side Bootloader firmware from v0.0.0.10 to v0.0.0.11. Fixes USB clock recovery on M4
+       (SAME51) devices so the Bootloader no longer hangs or loses USB at startup.
+    2) Update bundled track-side Main firmware.
+
+
+************************************************************************************************************************
+Version:
     1.43.0.x
 
 Date:
