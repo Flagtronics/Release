@@ -314,3 +314,14 @@ v0.9.0.3	8/12/2026	0.0	Track maps with an unusable start/finish line are reporte
 	                 	-	Device logs can be captured over USB for diagnostics
 	                 	-	Room for larger firmware updates in future releases
 v0.9.0.4	8/18/2026	0.0	Lap times are measured at the painted start/finish line, wherever it sits on the track
+v0.9.0.5	9/10/2026	0.0	Crashes are recorded and reported over USB the next time a diagnostic tool connects
+	                 	-	Oversized files on the USB drive no longer crash the device at startup
+	                 	-	A reset commanded from the PC no longer causes a second, unexpected restart
+	                 	-	Files the device writes or changes appear on the PC without unplugging
+	                 	-	The track flag color is held correctly through a brief wireless dropout
+	                 	-	Cars powered on together no longer flood the wireless network with startup transmissions
+	                 	-	Lap counting ignores GPS drift while a car is parked on the start/finish line
+	                 	-	Malformed local flag commands are rejected instead of corrupting memory
+	                 	-	Position report rate settings are limited to a safe range
+	                 	-	Device logs no longer fill with watchdog warnings during startup
+	                 	-	Firmware versions in datalogs are correct on devices with older boot ROMs
