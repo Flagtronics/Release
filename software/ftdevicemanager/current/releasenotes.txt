@@ -1,5 +1,31 @@
 ************************************************************************************************************************
 Version:
+    1.45.0.x
+
+Date:
+    2026 Sep 21
+
+Fixes:
+    1) Firmware update request was sent to wrong device while quickly switching between devices.
+
+Changes:
+    1) If an track-side device is attached over Ethernet and new Bootloader version is available, suggest user to
+       connect and update over USB.
+    2) Support text search with partial matching for track map lists (trackmap OTA firmware update & FT200 track map
+       manager).
+    3) Supports multiple track-side devices in Bootloader mode.
+    4) Track Map Builder now supports importing the whole track map folder which has the following structure:
+        Atlanta Motorsports Park            == Track name (e.g., "Virginia International Raceway")
+        |__ full                            == Track configuration (e.g., "north", "road course", etc.)
+            |__ trackid.txt                 == Contains track ID (e.g., "1001")
+            |__ v1                          == Track version (e.g., "v1", "v2", etc.)
+                |__ zones.csv/.kml/.kmz     == Track zone data in Google MyMaps CSV, KML, or KMZ format
+                |__ sfline.csv              == Start/finish timing line data in Google MyMaps CSV format
+                |__ sectorlines.csv         == Virtual sector line data in Google MyMaps CSV format
+
+
+************************************************************************************************************************
+Version:
     1.44.0.x
 
 Date:
