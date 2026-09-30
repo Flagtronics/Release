@@ -1,4 +1,7 @@
 Version	    	Date     		Notes
+v1.0.2		9/18/2026		Export cars, drivers, and flag stands as CSV
+				RFID log analyzer added under Settings > Dev Tools
+				Manual RFID entry saves more reliably and reports errors
 v1.0.1		8/30/2026		New Speed Trap Matrix view shows a live grid of every car's top speed in each speed-trap zone, with class and time-window filters
 				Speed traps now keep a per-lap history and export to CSV, and clearing them offers to export first
 				Manual RFID entry now blocks a helmet tag from being assigned to a car, and a car tag from being registered to a driver
