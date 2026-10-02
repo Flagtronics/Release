@@ -1,4 +1,8 @@
 Version	    	Date     		Notes
+v1.0.3		10/1/2026		Fix Network Asleep shown at startup when the track is already flagged
+				Screen keeps updating after canceling exit during a race
+				Clearer reader password tooltip
+				App log records every track director's flags on each change
 v1.0.2		9/18/2026		Export cars, drivers, and flag stands as CSV
 				RFID log analyzer added under Settings > Dev Tools
 				Manual RFID entry saves more reliably and reports errors
