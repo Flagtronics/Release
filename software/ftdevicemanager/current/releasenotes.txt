@@ -1,5 +1,32 @@
 ************************************************************************************************************************
 Version:
+    1.46.0.x
+
+Date:
+    2026 Oct 6
+
+Fixes:
+    1) If multiple revisions of a track map (.json) exist locally, older revisions was only removed when a newer
+       revision was available on the cloud. They are now deleted when the track maps are first loaded.
+    2) Serialize concurrent cloud firmware downloading (FT200, track-side).
+
+Changes:
+    1) Flagtronics Flash Programming Tool now separately remembers the last used firmware folder of DriverID and
+       Track-side's Ethernet controller.
+    2) FDMsw now dedicatedly remembers the last folders that the user selected to:
+       + Update firmware of DriverID & FT/RD.
+       + Update firmware of Ethernet controller & Main controller of TD/BC 4CH M4.
+       + Update firmware of FT200 application firmware & bootloader firmware.
+       + Import Google My Maps files and track map JSON files in Track Map Builder.
+       + Import and export log files in FT200 Log Viewer.
+    3) Added CAN Scanner tool to FT200 Device Diagnostics screen. This tool requires FT200 firmware v0.9.0.6 or later.
+    4) For trackmap OTA devices, display track ID in Device Information and Firmware Update pages (beside the current
+       information of track name, track config, and track revision).
+    5) In Firmware Update page, trackmap OTA firmware list now can be sorted by track ID, name, config or revision.
+
+
+************************************************************************************************************************
+Version:
     1.45.0.x
 
 Date:
