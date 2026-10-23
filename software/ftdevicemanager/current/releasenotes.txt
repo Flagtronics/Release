@@ -1,5 +1,26 @@
 ************************************************************************************************************************
 Version:
+    1.47.0.x
+
+Date:
+    2026 Oct 22
+
+Fixes:
+    1) Multiple fixes & performance improvements (issue #517): F1, F5, F6, F7, F8, F9, F10, F14.
+    2) Patch case type digit (8th digit) of device ID while updating bootloader of track-side devices.
+
+Changes:
+    1) Updated bundled track-side Main firmware to latest version.
+    2) For Ethernet track-side devices (ESP32 firmware > v1.8.0.0), show the per-device mDNS hostname on the Device
+       Information page. Connectivity with the device over the hostname can also be checked.
+    3) Support LoRa-USB Bridges as variants of track-side devices.
+    4) Main Controller of Ethernet track-side devices can be reset over Ethernet in Device Information screen (require
+       Ethernet Controller's firmware v1.9.0.0 or higher).
+    5) Auto-refresh FT200 track map list every 60s while Track Map Manager view is open.
+
+
+************************************************************************************************************************
+Version:
     1.46.0.x
 
 Date:
